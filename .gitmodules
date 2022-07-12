@@ -4,3 +4,6 @@
 [submodule "tseing.github.io"]
 	path = tseing.github.io
 	url = https://github.com/Tseing/tseing.github.io.git
+[submodule "blog/output"]
+	path = blog/output
+	url = https://github.com/Tseing/tseing.github.io.git
