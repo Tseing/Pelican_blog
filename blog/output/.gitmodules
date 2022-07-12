@@ -1,0 +1,3 @@
+[submodule "output"]
+	path = output
+	url = /home/tseing/Code/Pelican_blog/blog/output/
