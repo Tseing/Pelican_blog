@@ -31,6 +31,10 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
+# 导出时不删除的文件
+OUTPUT_RETENTION = [".git"]
+
+# md与jupyter两种布局
 MARKUP = ("md", "ipynb")
 
 from pelican_jupyter import markup as nb_markup
