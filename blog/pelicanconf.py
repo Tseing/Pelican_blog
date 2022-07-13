@@ -8,6 +8,7 @@ TIMEZONE = 'Asia/Shanghai'
 
 DEFAULT_LANG = 'zh-CN'
 
+DEFAULT_DATE_FORMAT = '%Y年 %b%d日'
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -33,7 +34,9 @@ DEFAULT_PAGINATION = 10
 MARKUP = ("md", "ipynb")
 
 from pelican_jupyter import markup as nb_markup
-PLUGINS = [nb_markup]
+PLUGINS = [nb_markup, 'render_math']
 IGNORE_FILES = [".ipynb_checkpoints"]
+IPYNB_SKIP_CSS=True
 
 THEME = "themes/attila"
+HOME_COVER = r"./themes/attila/static/images/wp2717211-nasa-hd-wallpaper.jpg"
