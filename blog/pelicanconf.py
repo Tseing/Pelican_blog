@@ -43,4 +43,4 @@ IGNORE_FILES = [".ipynb_checkpoints"]
 IPYNB_SKIP_CSS=True
 
 THEME = "themes/attila"
-HOME_COVER = r"./themes/attila/static/images/wp2717211-nasa-hd-wallpaper.jpg"
+# HOME_COVER = r"./themes/attila/static/images/wp2717211-nasa-hd-wallpaper.jpg"
