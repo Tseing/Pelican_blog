@@ -32,7 +32,7 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 # 导出时不删除的文件
-OUTPUT_RETENTION = [".git"]
+OUTPUT_RETENTION = [".git", "favicon.ico"]
 
 # md与jupyter两种布局
 MARKUP = ("md", "ipynb")
@@ -44,3 +44,4 @@ IPYNB_SKIP_CSS=True
 
 THEME = "themes/attila"
 # HOME_COVER = r"./themes/attila/static/images/wp2717211-nasa-hd-wallpaper.jpg"
+HOME_COLOR = 'black'
