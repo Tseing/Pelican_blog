@@ -1,6 +1,8 @@
 AUTHOR = 'Leo'
 SITENAME = "Leo's blog"
-SITEURL = ''
+# SITEURL = 'https://tseing.github.io'
+#Test url
+SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 
@@ -45,3 +47,14 @@ IPYNB_SKIP_CSS=True
 THEME = "themes/attila"
 # HOME_COVER = r"./themes/attila/static/images/wp2717211-nasa-hd-wallpaper.jpg"
 HOME_COLOR = 'black'
+
+# 侧边菜单栏，手动列举更好排序
+DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = False
+MENUITEMS = [("碎碎念", SITEURL + "/category/sui-sui-nian.html"),
+             ("故纸堆", SITEURL + "/category/gu-zhi-dui.html"),
+             ("在路上", SITEURL + "/category/zai-lu-shang.html"),
+             ("山墙边", SITEURL + "/pages/shan-qiang-bian.html"),
+             ("Tags", SITEURL + "/tags.html"),
+             ("About me", SITEURL + "/pages/about.html")]
+

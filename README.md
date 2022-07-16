@@ -1,5 +1,5 @@
 # My blog
-Powered by `Pelican 4.8.0` & `Python 3.9.10`
+Powered by `Pelican 4.8.0` & `Python 3.9`
 
 # 常见问题
 
