@@ -20,21 +20,21 @@ Pelican 中有 articles 与 pages 的概念，在创建页面时应当首先区�
 Jupyter Notebook 能够保存下代码的输入与输出信息，特别适合用于展示程序输出的图形。首先在`content`目录中创建`.nbdata`与`.ipynb`的同名文件。`.nbdata`文件中保存了文章的结构信息，而`.ipynb`使用 Jupyter Notebook 保存了文章的具体内容。
 
 ```
-Title: #文章标题
-Slug: #文章地址
-Date: #时间
-Category: #类别
-Tags: #标签
-Author: #作者
-Summary: #概要
+Title: # 文章标题
+Slug: # 文章地址
+Date: # 时间
+Category: # 类别
+Tags: # 标签
+Author: # 作者
+Summary: # 概要
 
-#其他不常用信息
-Modified: #修改时间
-Keywords: #仅用于html内容
-Authors: #多作者
-Lang: #语言
-Translation: #是否属于译文
-Status: #draft, hidden, or published
+# 其他不常用信息
+Modified: # 修改时间
+Keywords: # 仅用于html内容
+Authors: # 多作者
+Lang: # 语言
+Translation: # 是否属于译文
+Status: # draft, hidden, or published
 ```
 
 #### Markdown 方式
@@ -46,7 +46,7 @@ Status: #draft, hidden, or published
 在撰写文章后，进入虚拟环境，在`blog`文件夹中使用`Pelican`生成`.html`文件。
 
 ```
-ource ./venv/bin/activate
+source ./venv/bin/activate
 pelican content -s publishconf.py
 ```
 

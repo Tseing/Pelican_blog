@@ -1,5 +1,5 @@
 Title: 将 OneDrive 作为博客图床
-Slug: blog03
+Slug: blog02
 Date: 2022-07-14
 Category: 碎碎念
 Tags: blog, OneDrive

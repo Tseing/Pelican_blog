@@ -1,8 +1,8 @@
 AUTHOR = 'Leo'
 SITENAME = "Leo's blog"
-# SITEURL = 'https://tseing.github.io'
+SITEURL = 'https://tseing.github.io'
 #Test url
-SITEURL = 'http://localhost:8000'
+# SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 
@@ -58,3 +58,16 @@ MENUITEMS = [("碎碎念", SITEURL + "/category/sui-sui-nian.html"),
              ("Tags", SITEURL + "/tags.html"),
              ("About me", SITEURL + "/pages/about.html")]
 
+# Author info
+AUTHORS_BIO = {
+  "leo": {
+    "name": "Leo",
+    # "cover": ,
+    "image": SITEURL + "/images/avatar.jpeg",
+    "website": SITEURL,
+    "github": "Tseing",
+    "location": "Tientsin",
+    "email": "im.yczeng@outlook.com",
+    "bio": "This is the place for a small biography with max 200 characters. Well, now 100 are left. Cool, hugh?"
+  }
+}
