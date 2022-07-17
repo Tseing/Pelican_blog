@@ -35,7 +35,7 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 # 导出时不删除的文件
-OUTPUT_RETENTION = [".git", "favicon.ico", ".xml"]
+OUTPUT_RETENTION = [".git", "favicon.ico", "googleee5bb3f0889ddb20.html", "BingSiteAuth.xml"]
 
 # md与jupyter两种布局
 MARKUP = ("md", "ipynb")
@@ -48,8 +48,9 @@ IPYNB_SKIP_CSS=True
 THEME = "themes/attila"
 
 # default cover
-HEADER_COVER = "https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNuUy2Lur0PVrUfO1O/root/content"
+HEADER_COVER = "https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNuU3h7utB_z6MEPLq/root/content"
 
+# index cover
 HOME_COVER = "https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNuUt5yF-Mt9dOuNEh/root/content"
 
 # 侧边菜单栏，手动列举更好排序
@@ -88,5 +89,6 @@ SITEMAP = {
         "articles": "daily",
         "indexes": "daily",
         "pages": "monthly"
-    }
+    },
+    "exclude": ["tag/", "category/"]
 }
