@@ -23,3 +23,4 @@ Powered by `Pelican 4.8.0` & `Python 3.9`
 - [ ] 搜索
 - [ ] SSR订阅
 - [ ] 资料页面
+- [ ] sitemap

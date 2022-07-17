@@ -34,13 +34,13 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 # 导出时不删除的文件
-OUTPUT_RETENTION = [".git", "favicon.ico"]
+OUTPUT_RETENTION = [".git", "favicon.ico", ".xml"]
 
 # md与jupyter两种布局
 MARKUP = ("md", "ipynb")
 
 from pelican_jupyter import markup as nb_markup
-PLUGINS = [nb_markup, 'render_math']
+PLUGINS = [nb_markup, 'render_math', 'sitemap']
 IGNORE_FILES = [".ipynb_checkpoints"]
 IPYNB_SKIP_CSS=True
 
@@ -70,4 +70,19 @@ AUTHORS_BIO = {
     "email": "im.yczeng@outlook.com",
     "bio": "This is the place for a small biography with max 200 characters. Well, now 100 are left. Cool, hugh?"
   }
+}
+
+# sitemap
+SITEMAP = {
+    "format": "xml",
+    "priorities": {
+        "articles": 0.5,
+        "indexes": 0.5,
+        "pages": 0.5
+    },
+    "changefreqs": {
+        "articles": "daily",
+        "indexes": "daily",
+        "pages": "monthly"
+    }
 }
