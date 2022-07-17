@@ -29,11 +29,15 @@ output
        └── cover.jpg
 ```
 
+## 模版文件中的 {{ SITEURL }} 失效
+
+未解决，暂时用 Github Pages 地址代替。
+
 # To Do
 
 - [x] google ajax 和 google fonts访问速度过慢
 - [x] 菜单栏
 - [ ] 搜索
-- [ ] SSR订阅
-- [ ] 资料页面
-- [ ] sitemap
+- [x] SSR订阅
+- [x] 资料页面
+- [x] sitemap

@@ -1,8 +1,8 @@
 AUTHOR = 'Leo'
 SITENAME = "Leo's blog"
-# SITEURL = 'https://tseing.github.io'
-#Test url
-SITEURL = 'http://localhost:8000'
+SITEURL = 'https://tseing.github.io'
+#Developing url
+# SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 
@@ -11,6 +11,7 @@ TIMEZONE = 'Asia/Shanghai'
 DEFAULT_LANG = 'zh-CN'
 
 DEFAULT_DATE_FORMAT = '%Y年 %b%d日'
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
