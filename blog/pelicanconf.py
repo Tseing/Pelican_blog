@@ -45,8 +45,11 @@ IGNORE_FILES = [".ipynb_checkpoints"]
 IPYNB_SKIP_CSS=True
 
 THEME = "themes/attila"
+
+# default cover
+HEADER_COVER = "https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNuUy2Lur0PVrUfO1O/root/content"
+
 HOME_COVER = "https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNuUt5yF-Mt9dOuNEh/root/content"
-# HOME_COLOR = 'black'
 
 # 侧边菜单栏，手动列举更好排序
 DISPLAY_PAGES_ON_MENU = False
