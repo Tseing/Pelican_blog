@@ -31,7 +31,7 @@ output
 
 ## 模版文件中的 {{ SITEURL }} 失效
 
-未解决，暂时用 Github Pages 地址代替。
+务必在`pelicanconf.py`与`publishconf.py`中都添加`SITEURL`，解决一部分路径问是。其余未解决，暂时用 Github Pages 地址代替。
 
 # To Do
 
