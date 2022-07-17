@@ -1,8 +1,8 @@
 AUTHOR = 'Leo'
 SITENAME = "Leo's blog"
-SITEURL = 'https://tseing.github.io'
+# SITEURL = 'https://tseing.github.io'
 #Test url
-# SITEURL = 'http://localhost:8000'
+SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 
@@ -45,8 +45,8 @@ IGNORE_FILES = [".ipynb_checkpoints"]
 IPYNB_SKIP_CSS=True
 
 THEME = "themes/attila"
-# HOME_COVER = r"./themes/attila/static/images/wp2717211-nasa-hd-wallpaper.jpg"
-HOME_COLOR = 'black'
+HOME_COVER = "https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNuUt5yF-Mt9dOuNEh/root/content"
+# HOME_COLOR = 'black'
 
 # 侧边菜单栏，手动列举更好排序
 DISPLAY_PAGES_ON_MENU = False
@@ -62,7 +62,7 @@ MENUITEMS = [("碎碎念", SITEURL + "/category/sui-sui-nian.html"),
 AUTHORS_BIO = {
   "leo": {
     "name": "Leo",
-    # "cover": ,
+    "cover": "https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNuUZNJKuT3c_gI4Jh/root/content",
     "image": SITEURL + "/images/avatar.jpeg",
     "website": SITEURL,
     "github": "Tseing",

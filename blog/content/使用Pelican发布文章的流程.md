@@ -4,7 +4,7 @@ Date: 2022-07-12
 Category: 碎碎念
 Tags: blog, Pelican
 Author: Leo
-Summary: 本文介绍如何使用Pelican在搭建在Github Pages上的博客发布文章
+Summary: 如何使用 Pelican 在搭建在 Github Pages 上的博客发布文章
 
 ### Articles or pages?
 

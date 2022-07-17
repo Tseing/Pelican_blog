@@ -16,6 +16,19 @@ Powered by `Pelican 4.8.0` & `Python 3.9`
 
 部分字体、图标在 Firefox 浏览器上无法正常加载，按 F12 可见错误`已拦截跨源请求`。若在`localhost：8000`开放，需要手动输入为`http://localhost:8000`。
 
+## 使用相对路径的网页资源失效
+
+原因在于`html`文件中调用相对路径的行为是不准确的。例如文件结构如下，若在`pelicanconf.py`中将图片的相对路径会写为`"/images/cover.jpg"`，结果就是`index.html`页面可以显示，而`page.html`调用时不存在`pages/images/cover.jpg`文件。推荐做法是在`pelicanconf.py`设置`SITEURL`，使用`SITEURL + "相对路径"`指向文件。
+
+```
+output
+├── index.html
+├── pages
+│      └── page.html
+└── images
+       └── cover.jpg
+```
+
 # To Do
 
 - [x] google ajax 和 google fonts访问速度过慢
