@@ -1,6 +1,5 @@
-Title: About me
-Slug: about
-Author: Leo
-Cover: https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNuU3h7utB_z6MEPLq/root/content
+title: About me
+slug: about
+author: Leo
 
-This is a page about me.
+This man is too lazy to leave anything here. Coming soon (or after a long period of time o_O ).

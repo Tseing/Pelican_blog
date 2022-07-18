@@ -1,11 +1,10 @@
-Title: 将 OneDrive 作为博客图床
-Slug: blog02
-Date: 2022-07-14
-Category: 碎碎念
-Tags: blog, OneDrive
-Author: Leo
-Summary: 在 Linux 使用 ZFile 同步管理 OneDrive 文件，通过 Microsoft API 生成图片链接
-Cover: https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNuUZNJKuT3c_gI4Jh/root/content
+title: 将 OneDrive 作为博客图床
+slug: blog02
+date: 2022-07-14
+category: 碎碎念
+tags: blog, OneDrive
+author: Leo
+summary: 在 Linux 上使用 ZFile 管理 OneDrive 文件，利用 Microsoft API 生成图片链接
 
 在个人博客中，图片是不可或缺的，而生成图片的直链后才能在`.md`文件中使用，因此通常又需要图床等额外工具。由于国内市场的图床工具良莠不齐，没有精力仔细挑选，还有就是把数据交在他们的手中多少有些不放心。想到订阅 Microsoft Office 时附赠了 1 TB 的 OneDrive 容量，正好可以利用起来。使用 OneDrive 作为图床的好处就在于数据在自己的手中，不用担心某天突然挂掉，还有就是在多平台（Windows、iPad 和 Android）都有 OneDrive 应用，很方便同步。但是很遗憾，由于国内的环境，OneDrive 的网页版是打不开的，这就不能通过网页版直接生成图片链接，必须『绕道通行』。
 
@@ -16,6 +15,7 @@ Windows 系统自带 OneDrive 应用，可以直接使用桌面应用进行文�
 ### OneDrive 文件链接的生成方式
 
 OneDrive 的网页应用直接提供了嵌入代码，可以直接贴在文章中。但因为科学上网时上传速度相当感人，使用起来还是太过麻烦。虽然无法访问 OneDrive 网页，但 OneDrive 在国内的其他功能都是正常的，包括生成的分享链接，所以直接借用官方API生成链接的方案是可行的。发现有人已经写好了[相关项目](https://github.com/harrisoff/onedrive-image-hosting)，点开项目右侧的链接登录自己的OneDrive后直接插入`.md`就可以啦。
+
 ```
 ![图片名称](https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNuUZNJKuT3c_gI4Jh/root/content)
 ```
@@ -25,7 +25,7 @@ OneDrive 的网页应用直接提供了嵌入代码，可以直接贴在文章�
 
 在 Linux 系统使用 ZFile 首先需要安装依赖：
 
-```bash
+```sh
 # Debian 10
 apt update && apt install -y apt-transport-https software-properties-common ca-certificates dirmngr gnupg
 wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | apt-key add -
@@ -33,9 +33,9 @@ add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/
 apt update && apt install -y adoptopenjdk-8-hotspot-jre
 ```
 
-下载 ZFile:
+下载 ZFile：
 
-```
+```sh
 export ZFILE_INSTALL_PATH=~/zfile
 mkdir -p $ZFILE_INSTALL_PATH && cd $ZFILE_INSTALL_PATH
 wget https://c.jun6.net/ZFILE/zfile-release.war
@@ -47,7 +47,8 @@ chmod +x $ZFILE_INSTALL_PATH/bin/*.sh
 
 ### 启动并配置 ZFile
 
-```
+通过以下命令启动 ZFile：
+```sh
  ~/zfile/bin/start.sh       # 启动项目
  ~/zfile/bin/stop.sh        # 停止项目
  ~/zfile/bin/restart.sh     # 重启项目
