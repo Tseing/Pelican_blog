@@ -12,7 +12,7 @@ Windows 系统自带 OneDrive 应用，可以直接使用桌面应用进行文�
 
 但是写博客的工作环境是 Linux 系统，Linux 系统中没有 OneDrive 应用和上述 UWP 应用，也就不能使用上面的方法。本文就将介绍如何在 Linux 系统下使用 OneDrive 作为个人博客的图床并使用ZFile同步云盘文件。
 
-### OneDrive 文件链接的生成方式
+## OneDrive 文件链接的生成方式
 
 OneDrive 的网页应用直接提供了嵌入代码，可以直接贴在文章中。但因为科学上网时上传速度相当感人，使用起来还是太过麻烦。虽然无法访问 OneDrive 网页，但 OneDrive 在国内的其他功能都是正常的，包括生成的分享链接，所以直接借用官方API生成链接的方案是可行的。发现有人已经写好了[相关项目](https://github.com/harrisoff/onedrive-image-hosting)，点开项目右侧的链接登录自己的OneDrive后直接插入`.md`就可以啦。
 
@@ -20,7 +20,7 @@ OneDrive 的网页应用直接提供了嵌入代码，可以直接贴在文章�
 ![图片名称](https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNuUZNJKuT3c_gI4Jh/root/content)
 ```
 
-### 安装 ZFile
+## 安装 ZFile
 [ZFile](https://github.com/zhaojun1998/zfile) 是一款在线网盘程序，支持包括 OneDrive 在内的多种存储源。ZFile 可以代替其他平台的 OneDrive 应用来管理云盘中的文件，实现同步、上传、下载等功能。ZFile 也能生成文件直链插入文章，但是这个功能需要云服务器，抱着能省则省的态度，就等以后再折腾，这里仅使用 ZFile 来管理 OneDrive。
 
 在 Linux 系统使用 ZFile 首先需要安装依赖：
@@ -45,7 +45,7 @@ chmod +x $ZFILE_INSTALL_PATH/bin/*.sh
 
 `ZFILE_INSTALL_PATH`指定了安装路径，可以自行修改。
 
-### 启动并配置 ZFile
+## 启动并配置 ZFile
 
 通过以下命令启动 ZFile：
 ```sh
@@ -58,7 +58,7 @@ chmod +x $ZFILE_INSTALL_PATH/bin/*.sh
 ![注册/登录界面](https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNuUeZko02sAbyr5jh/root/content)首次开启时需要注册管理员账号，登录进入系统后，首先配置存储源，选择存储策略为`OneDrive`，启用文件操作。
 ![配置存储源](https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNuUUBsSGYxpEV6Frp/root/content)点击链接登录 OneDrive 账号获取令牌，填写完成后即可保存设置。![获取令牌](https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNuUPS4i5g5F_-nR4T/root/content)设置成功后在存储源中就可以看见 OneDrive 标志，并且显示刷新成功，这样 ZFile 就已经正常工作了。![存储源列表](https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNuUSMlwPi40T-1Um4/root/content)
 
-### 使用 ZFile 管理 OneDrive
+## 使用 ZFile 管理 OneDrive
 
 在地址栏中输入`localhost:8080`进入存储界面，在这里就理应能够看到 OneDrive 中存储的文件了，可以使用其他设备辅助测试是否能够正常上传或删除文件。
 
