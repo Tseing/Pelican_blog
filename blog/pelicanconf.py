@@ -1,9 +1,9 @@
 AUTHOR = 'Leo'
 SITENAME = "Leo's blog"
 SITESUBTITLE = 'A nook to hoard my manuscripts.'
-SITEURL = 'https://tseing.github.io'
+# SITEURL = 'https://tseing.github.io'
 #Developing url
-# SITEURL = 'http://localhost:8000'
+SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 
@@ -41,8 +41,9 @@ OUTPUT_RETENTION = [".git", "favicon.ico", "googleee5bb3f0889ddb20.html", "BingS
 # md与jupyter两种布局
 MARKUP = ("md", "ipynb")
 
+PLUGIN_PATHS = ['plugins']
 from pelican_jupyter import markup as nb_markup
-PLUGINS = [nb_markup, 'render_math', 'sitemap']
+PLUGINS = [nb_markup, 'pelican_toc', 'render_math', 'sitemap']
 IGNORE_FILES = [".ipynb_checkpoints"]
 IPYNB_SKIP_CSS=True
 
@@ -92,4 +93,17 @@ SITEMAP = {
         "pages": "monthly"
     },
     "exclude": ["tag/", "category/"]
+}
+
+# toc
+TOC = {
+    'TOC_HEADERS'       : '^h[2-3]', # What headers should be included in
+                                     # the generated toc
+                                     # Expected format is a regular expression
+
+    'TOC_RUN'           : 'true',    # Default value for toc generation,
+                                     # if it does not evaluate
+                                     # to 'true' no toc will be generated
+
+    'TOC_INCLUDE_TITLE':  'false',     # If 'true' include title in toc
 }
