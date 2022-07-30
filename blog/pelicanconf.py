@@ -1,9 +1,9 @@
 AUTHOR = 'Leo'
 SITENAME = "Leo's blog"
 SITESUBTITLE = 'A nook to hoard my manuscripts.'
-# SITEURL = 'https://tseing.github.io'
+SITEURL = 'https://tseing.github.io'
 #Developing url
-SITEURL = 'http://localhost:8000'
+# SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 
@@ -13,6 +13,10 @@ DEFAULT_LANG = 'zh-CN'
 
 DEFAULT_DATE_FORMAT = '%Y年 %b%d日'
 
+ARTICLE_URL = '{category}/{slug}.html'
+ARTICLE_SAVE_AS = '{category}/{slug}.html'
+
+USE_FOLDER_AS_CATEGORY = True
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None

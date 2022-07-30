@@ -1,12 +1,10 @@
 title: 使用 Pelican 发布文章的流程
 slug: blog01
 date: 2022-07-12
-category: 碎碎念
 tags: blog, Pelican
-author: Leo
 summary: 如何使用 Pelican 在搭建在 Github Pages 上的博客发布文章
 
-## Articles or pages?
+## Articles or Pages?
 
 Pelican 中有 articles 与 pages 的概念，在创建页面时应当首先区分二者。
 
@@ -72,7 +70,7 @@ git push
 
 ---
 
-### References
+## References
 
 - [Pelican Settings Document](https://docs.getpelican.com/en/latest/settings.html)
 - [Pelican + GitHubPages 搭建个人博客 · Zodiac Wang](https://zodiac911.github.io/blog/static-blog.html#%E7%B3%BB%E7%BB%9F%E8%A6%81%E6%B1%82)
