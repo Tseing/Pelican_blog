@@ -31,13 +31,13 @@ output
 
 ## 模版文件中的 {{ SITEURL }} 失效
 
-务必在`pelicanconf.py`与`publishconf.py`中都添加`SITEURL`，解决一部分路径问是。其余未解决，暂时用 Github Pages 地址代替。
+务必在`pelicanconf.py`与`publishconf.py`中都添加`SITEURL`，解决一部分路径问题。其余未解决，暂时用 Github Pages 地址代替。
 
 # To Do
 
 - [x] google ajax 和 google fonts访问速度过慢
 - [x] 菜单栏
-- [ ] 搜索
+- [ ] ~~搜索~~（pelican-search 不支持中文）
 - [x] SSR订阅
 - [x] 资料页面
 - [x] sitemap
