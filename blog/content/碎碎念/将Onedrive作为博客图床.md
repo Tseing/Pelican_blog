@@ -4,7 +4,7 @@ date: 2022-07-14
 tags: blog, OneDrive
 summary: 在 Linux 上使用 ZFile 管理 OneDrive 文件，利用 Microsoft API 生成图片链接
 
-在个人博客中，图片是不可或缺的，而生成图片的直链后才能在`.md`文件中使用，因此通常又需要图床等额外工具。由于国内市场的图床工具良莠不齐，没有精力仔细挑选，还有就是把数据交在他们的手中多少有些不放心。想到订阅 Microsoft Office 时附赠了 1 TB 的 OneDrive 容量，正好可以利用起来。使用 OneDrive 作为图床的好处就在于数据在自己的手中，不用担心某天突然挂掉，还有就是在多平台（Windows、iPad 和 Android）都有 OneDrive 应用，很方便同步。但是很遗憾，由于国内的环境，OneDrive 的网页版是打不开的，这就不能通过网页版直接生成图片链接，必须『绕道通行』。
+在个人博客中，图片是不可或缺的，而生成图片的直链后才能在`.md`文件中使用，因此通常又需要图床等额外工具。由于国内市场的图床工具良莠不齐，没有精力仔细挑选，还有就是把数据交在他们的手中多少有些不放心。想到订阅 Microsoft Office 时附赠了 1 TB 的 OneDrive 容量，正好可以利用起来。使用 OneDrive 作为图床的好处就在于数据在自己的手中，不用担心某天突然挂掉，还有就是在多平台（Windows、iPad 和 Android）都有 OneDrive 应用，很方便同步。但是很遗憾，由于国内的环境，OneDrive 的网页版是打不开的，这就不能通过网页版直接生成图片链接，必须「绕道通行」。
 
 Windows 系统自带 OneDrive 应用，可以直接使用桌面应用进行文件同步，借助 [Img Share](https://github.com/Richasy/Img-Share) 生成图片链接。Img Share 后来被 [Picture Share](https://apps.microsoft.com/store/detail/picture-share/9PHWZ3QL0HN3?hl=en-us&gl=US) 代替，在 Microsoft Store 中就可以直接下载到。Picture Share 十分容易上手，界面简洁且功能齐全，具体的设置方法可以参考[这篇文章](https://wzblog.fun/posts/b036879a/)。
 
