@@ -1,5 +1,5 @@
 title: 使用 Pelican 发布文章的流程
-slug: blog01
+slug: pelican-to-publish
 date: 2022-07-12
 tags: blog, Pelican
 summary: 如何使用 Pelican 在搭建在 Github Pages 上的博客发布文章

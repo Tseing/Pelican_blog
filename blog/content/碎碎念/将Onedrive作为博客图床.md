@@ -1,5 +1,5 @@
 title: 将 OneDrive 作为博客图床
-slug: blog02
+slug: onedrive-as-image-host
 date: 2022-07-14
 tags: blog, OneDrive
 summary: 在 Linux 上使用 ZFile 管理 OneDrive 文件，利用 Microsoft API 生成图片链接
@@ -60,4 +60,4 @@ chmod +x $ZFILE_INSTALL_PATH/bin/*.sh
 
 在地址栏中输入`localhost:8080`进入存储界面，在这里就理应能够看到 OneDrive 中存储的文件了，可以使用其他设备辅助测试是否能够正常上传或删除文件。
 
-如果有一台 VPS，在 VPS 上启动 ZFile 后，通过`vps-ip:[port]`也能进入同样的管理界面。只需要将图片文件上传至 OneDrive，使用ZFile就可以得到文件的直链，不止是图片，这种方法还可以在`.md`中插入音频或是视频文件，甚至搭建个人下载站，而且完全不占用服务器存储。值得注意的是，ZFile获得的文件『直链』并不是真正的直链，而是经过一次转发，可能会影响访问速度。![ZFile获取直链流程](https://storage.live.com/items/4D18B16B8E0B1EDB!7369?authkey=ALYpzW-ZQ_VBXTU)因为 ZFile 向 OneDrive 请求得到是预览链接或临时下载链接`1drv.com/...`，该链接在一段时间后就会失效，也不能直接用作图床。当用户每次访问ZFile直链`vps-ip:[port]/...`时，实际得到的都是Z File 转发得到的 OneDrive 临时链接。
+如果有一台 VPS，在 VPS 上启动 ZFile 后，通过`vps-ip:[port]`也能进入同样的管理界面。只需要将图片文件上传至 OneDrive，使用ZFile就可以得到文件的直链，不止是图片，这种方法还可以在`.md`中插入音频或是视频文件，甚至搭建个人下载站，而且完全不占用服务器存储。值得注意的是，ZFile获得的文件「直链」并不是真正的直链，而是经过一次转发，可能会影响访问速度。![ZFile获取直链流程](https://storage.live.com/items/4D18B16B8E0B1EDB!7369?authkey=ALYpzW-ZQ_VBXTU)因为 ZFile 向 OneDrive 请求得到是预览链接或临时下载链接`1drv.com/...`，该链接在一段时间后就会失效，也不能直接用作图床。当用户每次访问ZFile直链`vps-ip:[port]/...`时，实际得到的都是Z File 转发得到的 OneDrive 临时链接。
