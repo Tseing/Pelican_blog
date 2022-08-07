@@ -1,9 +1,9 @@
 AUTHOR = 'Leo'
 SITENAME = "Leo's blog"
 SITESUBTITLE = 'A nook to hoard my manuscripts.'
-# SITEURL = 'https://tseing.github.io'
+SITEURL = 'https://tseing.github.io'
 #Developing url
-SITEURL = 'http://localhost:8000'
+# SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 
@@ -67,7 +67,7 @@ MENUITEMS = [("碎碎念", SITEURL + "/category/sui-sui-nian.html"),
              ("在路上", SITEURL + "/category/zai-lu-shang.html"),
              ("山墙边", SITEURL + "/pages/shan-qiang-bian.html"),
              ("Tags", SITEURL + "/tags.html"),
-             ("About me", SITEURL + "/pages/about.html")]
+             ("About", SITEURL + "/pages/about.html")]
 
 # Author info
 AUTHORS_BIO = {
@@ -79,7 +79,7 @@ AUTHORS_BIO = {
     "github": "Tseing",
     "location": "Tientsin",
     "email": "im.yczeng@outlook.com",
-    "bio": "This is the place for a small biography with max 200 characters. Well, now 100 are left. Cool, hugh?"
+    "bio": "A biochemist who doesn't know about artificial intelligence isn't a good programmer. Cool, huh?"
   }
 }
 
