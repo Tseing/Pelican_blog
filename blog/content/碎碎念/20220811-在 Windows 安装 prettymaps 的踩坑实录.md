@@ -42,7 +42,7 @@ hint: See above for details.
 
 再根据错误信息，也就是在安装`Fiona`依赖时调用的`GDAL`未正确配置，我的设备上没有安装`GDAL`，所以需要先安装`GDAL`。
 
-### 安装 GDAL core（不推荐）
+## 安装 GDAL core（不推荐）
 
 可以先尝试直接`pip install gdal`，不出意外的话会有以下错误：
 
@@ -81,7 +81,7 @@ GDAL              3.5.1
 此时已经在 Python 中安装了`GDAL`，但还需要配置环境变量后才能安装`Fiona`。详细步骤可以参考[这篇文章](https://zhuanlan.zhihu.com/p/141226948)。
 
 
-### 使用 .whl 文件安装（推荐）
+## 使用 .whl 文件安装（推荐）
 
 `GDAL` 与 `Fiona` 不能直接通过 pip 安装是因为缺少 GDAL core，在不安装 GDAL core 的情况下，可以使用预编译的 `.whl` 安装这两个依赖。UCI 的 [Python 拓展包仓库](https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal)提供了这两个依赖的 `.whl` 文件。
 
@@ -98,7 +98,9 @@ ERROR: Could not install packages due to an OSError: [Errno 22] Invalid argument
 
 出现这个错误时我寻找了大量解决方法，当然，这个错误也没法解决，这纯粹是安装文件的问题。这个隐藏的坑浪费我大量时间，后来我发现将安装文件换成`3.3.3`版本，就能成功安装了。
 
-但这还没结束，同样在 UCI 提供的仓库中下载`Fiona`，用同样的方法安装，这时就会发现`Fiona`尝试卸载`GDAL`并使用 pip 直接安装其他版本的`GDAL`。当然，结局就会和上面的情况一样，用 pip 直接安装是安装不上`GDAL`的。这是因为这里还有一个隐藏的大坑，就是`GDAL`与`Fiona`的版本必须匹配，否则就会自动重新下载。经过大量尝试，Python 版本为`3.9.10`的条件下，可以使用`GDAL==3.3.2`与`Fiona==1.8.20`，这里个版本在 UCI 提供的仓库中都没有，我把下载链接放在后文。
+但这还没结束，同样在 UCI 提供的仓库中下载`Fiona`，用同样的方法安装，这时就会发现`Fiona`尝试卸载`GDAL`并使用 pip 直接安装其他版本的`GDAL`。当然，结局就会和上面的情况一样，用 pip 直接安装是安装不上`GDAL`的。
+
+这是因为这里还有一个隐藏的大坑，就是`GDAL`与`Fiona`的版本必须匹配，否则就会自动重新下载。经过大量尝试，Python 版本为`3.9.10`的条件下，可以使用`GDAL==3.3.2`与`Fiona==1.8.20`，这两个版本在 UCI 提供的仓库中都没有，我把下载链接放在后文。
 
 安装好这两个依赖后，就可以直接使用`pip install prettymaps`安装`prettymaps`了。在 Python 交互模式下输入`import prettymaps`，若无错误信息，就成功安装好`prettymaps`了。
 

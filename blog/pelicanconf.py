@@ -57,7 +57,8 @@ THEME = "themes/attila"
 HEADER_COVER = "https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNuU3h7utB_z6MEPLq/root/content"
 
 # default theme cover
-HOME_COVER = "https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNuU50-T6H01shIvBa/root/content"
+# HOME_COVER = "https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNuU50-T6H01shIvBa/root/content"
+HOME_COVER = "https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNunLc0Y-tTns1SGA5/root/content"
 
 # 侧边菜单栏，手动列举更好排序
 DISPLAY_PAGES_ON_MENU = False
