@@ -1,9 +1,9 @@
 AUTHOR = 'Leo'
 SITENAME = "Leo's blog"
 SITESUBTITLE = 'A nook to hoard my manuscripts.'
-# SITEURL = 'https://tseing.github.io'
-#Developing url
-SITEURL = 'http://localhost:8000'
+SITEURL = 'https://tseing.github.io'
+# Developing url
+# SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 

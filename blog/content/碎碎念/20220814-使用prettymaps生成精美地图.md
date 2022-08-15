@@ -13,10 +13,7 @@ cover: https://storage.live.com/items/4D18B16B8E0B1EDB!7541?authkey=ALYpzW-ZQ_VB
 ```py
 from prettymaps import *
 from matplotlib import pyplot as plt
-
-
 fig, ax = plt.subplots(figsize = (12, 12), constrained_layout = True)
-
 layers = plot(
     'Praça Ferreira do Amaral, Macau', radius = 1100,
     ax = ax,
@@ -53,10 +50,8 @@ layers = plot(
             'streets': {'fc': '#2F3737', 'ec': '#475657', 'alpha': 1, 'lw': 0, 'zorder': 3},
             'building': {'palette': ['#FFC857', '#E9724C', '#C5283D'], 'ec': '#2F3737', 'lw': .5, 'zorder': 4},
         },
-
         osm_credit = {'color': '#2F3737'}
 )
-
 plt.savefig('macao.png')
 ```
 
@@ -73,13 +68,11 @@ plot(
     # 地图的中心点，可以是地名的字符串，也可以经纬度的元组
     'query',
     # 地图半径，单位为米
-    radius = ,
+    radius = 100,
     # 将 x 轴绑定至画布 x 轴
     ax = ax,
-    # OpenStreetMap 地图层信息，复制示例代码即可
-    layers = {
-                'perimeter': {}, # 绘图模式，留空即为默认的圆形
-             },
+    # OpenStreetMap 地图层信息，若不了解复制示例代码即可
+    layers = {'perimeter': {}},
     # 图层样式，如颜色等
     drawing_kwargs = {},
     # 版权信息
@@ -92,6 +85,7 @@ plot(
 与示例代码相同，只要将 `perimeter` 留空，默认的绘图模式就是圆形模式。
 
 ![上海外滩](https://storage.live.com/items/4D18B16B8E0B1EDB!7539?authkey=ALYpzW-ZQ_VBXTU)
+
 &emsp;&emsp;&emsp;&emsp;{location}<i>外滩  The Bund, Shanghai</i>
 
 ## 圆角矩形模式
@@ -103,7 +97,6 @@ plot(
 ```py
 dilate = 100
 palette=['#F4A460', '#FA8072']
-
 layers = plot(
     (26.08594,119.29199), radius = 400,
     ax = ax,
@@ -175,12 +168,12 @@ layers = plot(
             'streets': {'fc': '#2F3737', 'ec': '#475657', 'alpha': 1, 'lw': 0, 'zorder': 3},
             'building': {'palette': palette, 'ec': '#2F3737', 'lw': .5, 'zorder': 4},
         },
-
         osm_credit = {'color': '#2F3737'}
 )
 ```
 
 ![三坊七巷](https://storage.live.com/items/4D18B16B8E0B1EDB!7540?authkey=ALYpzW-ZQ_VBXTU)
+
 &emsp;&emsp;&emsp;&emsp;{location}<i>三坊七巷  Sanfang Qixiang, Fuzhou</i>
 
 ## 方形模式
@@ -198,6 +191,7 @@ ax.set_ylim(ymin+a*dy, ymax-a*dy)
 变量 `a` 表示裁去的四周比例。
 
 ![闽江](https://storage.live.com/items/4D18B16B8E0B1EDB!7541?authkey=ALYpzW-ZQ_VBXTU)
+
 &emsp;&emsp;&emsp;&emsp;{location}<i>闽江  Min River, Fuzhou</i>
 
 ## 进阶操作
@@ -289,16 +283,15 @@ layers = plot(
             'streets': {'fc': '#2F3737', 'alpha': 0.7, 'lw': 0, 'zorder': 3},
             'building': {'palette': ['#FFC857', '#E9724C', '#C5283D'], 'ec': '#2F3737', 'lw': .5, 'zorder': 4},
         },
-
         osm_credit = {'color': '#2F3737'}
 )
-
 plt.savefig('pku.png')
 ```
 
 由于 `prettymaps` 的封闭边界太过于靠近建筑，可以使用 `buffer()` 将边界向外扩张一部分，能获得更好的视觉效果。
 
 ![北京大学](https://storage.live.com/items/4D18B16B8E0B1EDB!7542?authkey=ALYpzW-ZQ_VBXTU)
+
 &emsp;&emsp;&emsp;&emsp;{location}<i>北京大学  Peking University, Beijing</i>
 
 调用相应的图层标签，还可以绘制铁路、地铁线路。以下代码调用了了铁路、地铁、站台并将这些元素各自组合为图层：
@@ -327,6 +320,7 @@ plt.savefig('pku.png')
 ```
 
 ![天津站](https://storage.live.com/items/4D18B16B8E0B1EDB!7543?authkey=ALYpzW-ZQ_VBXTU)
+
 &emsp;&emsp;&emsp;&emsp;{location}<i>天津站  Tianjin Railway Station, Tianjin</i>
 
 ## 自己的话
