@@ -1,9 +1,9 @@
 AUTHOR = 'Leo'
 SITENAME = "Leo's blog"
 SITESUBTITLE = 'A nook to hoard my manuscripts.'
-SITEURL = 'https://tseing.github.io'
+# SITEURL = 'https://tseing.github.io'
 #Developing url
-# SITEURL = 'http://localhost:8000'
+SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 
@@ -47,7 +47,7 @@ MARKUP = ("md", "ipynb")
 
 PLUGIN_PATHS = ['plugins']
 from pelican_jupyter import markup as nb_markup
-PLUGINS = [nb_markup, 'pelican_toc', 'render_math', 'sitemap']
+PLUGINS = [nb_markup, 'pelican-toc', 'render_math', 'sitemap', 'replacer']
 IGNORE_FILES = [".ipynb_checkpoints"]
 IPYNB_SKIP_CSS=True
 
@@ -112,3 +112,12 @@ TOC = {
 
     'TOC_INCLUDE_TITLE':  'false',     # If 'true' include title in toc
 }
+
+# code replace to
+REPLACES = (
+    (u'{warn begin}', u'<div class="warn-info"><p><i class="fa fa-exclamation-circle"></i>&ensp;<b>Warning</b>&emsp;'),
+    (u'{warn end}', u'</p></div>'),
+    (u'{note begin}', u'<div class="note-info"><p><i class="fa fa-pencil"></i>&ensp;<b>Warning</b>&emsp;'),
+    (u'{note end}', u'</p></div>'),
+    (u'{location}', u'<span class="fa-stack fa-1x"><i class="fa fa-map-o fa-stack-1x"></i><i class="fa fa-map-marker fa-stack-1x"></i></span>')
+)

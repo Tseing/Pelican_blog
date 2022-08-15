@@ -5,11 +5,11 @@ tags: prettymaps, Python, Windows
 summary: prettymaps 是一个 Python 地图绘图包，在 matplotlib 绘图包的助力下能够绘制出十分精美的地图。但是 prettymaps 在 Windows 下的安装十分恼人，这篇笔记记录下了安装过程中的常见错误。
 
 
-`prettymaps`是一个 Python 地图绘图包，能够使用 OpenStreetMap 的地图数据，在`matplotlib`绘图包的助力下能够绘制出十分精美、极具艺术感的地图。但是`prettymaps`在 Windows 下的安装十分恼人，这篇笔记记录下了安装过程中的常见错误。
+`prettymaps` 是一个 Python 地图绘图包，能够使用 OpenStreetMap 的地图数据，在 `matplotlib` 绘图包的助力下能够绘制出十分精美、极具艺术感的地图。但是 `prettymaps` 在 Windows 下的安装十分恼人，这篇笔记记录下了安装过程中的常见错误。
 
 ## 尝试直接使用 pip 安装
 
-在项目的 [Github 仓库](https://github.com/marceloprates/prettymaps)中，作者提供的方法是直接通过`pip install prettymaps`安装，但是在 Windows 设备上貌似不起作用。命令行信息提示在安装`Fiona`时发生错误，错误信息如下：
+在项目的 [Github 仓库](https://github.com/marceloprates/prettymaps)中，作者提供的方法是直接通过 `pip install prettymaps` 安装，但是在 Windows 设备上貌似不起作用。命令行信息提示在安装 `Fiona` 时发生错误，错误信息如下：
 
 ```
   Using cached Fiona-1.8.21.tar.gz (1.0 MB)
@@ -32,7 +32,7 @@ note: This is an issue with the package mentioned above, not pip.
 hint: See above for details.
 ```
 
-这里我们需要先明确一下`prettymaps`的依赖：
+这里我们需要先明确一下 `prettymaps` 的依赖：
 
 ```
 - prettymaps
@@ -40,11 +40,11 @@ hint: See above for details.
     ╰─> - GDAL
 ```
 
-再根据错误信息，也就是在安装`Fiona`依赖时调用的`GDAL`未正确配置，我的设备上没有安装`GDAL`，所以需要先安装`GDAL`。
+再根据错误信息，也就是在安装 `Fiona` 依赖时调用的 `GDAL` 未正确配置，我的设备上没有安装 `GDAL`，所以需要先安装 `GDAL`。
 
 ## 安装 GDAL core（不推荐）
 
-可以先尝试直接`pip install gdal`，不出意外的话会有以下错误：
+可以先尝试直接 `pip install gdal`，不出意外的话会有以下错误：
 
 ```
 extensions/gdalconst_wrap.c(2703): fatal error C1083: 无法打开包括文件: “gdal.h”: No such file or directory
@@ -69,7 +69,7 @@ extensions/gdal_wrap.cpp(2883): fatal error C1083: 无法打开包括文件: “
 
 ![GISInternals下载文件](https://storage.live.com/items/4D18B16B8E0B1EDB!7533?authkey=ALYpzW-ZQ_VBXTU)
 
-安装完成后，使用 pip 可以查询到`GDAL`的安装信息：
+安装完成后，使用 pip 可以查询到 `GDAL` 的安装信息：
 
 ```
 > pip list
@@ -78,7 +78,7 @@ Package           Version
 GDAL              3.5.1
 ```
 
-此时已经在 Python 中安装了`GDAL`，但还需要配置环境变量后才能安装`Fiona`。详细步骤可以参考[这篇文章](https://zhuanlan.zhihu.com/p/141226948)。
+此时已经在 Python 中安装了 `GDAL`，但还需要配置环境变量后才能安装 `Fiona`。详细步骤可以参考[这篇文章](https://zhuanlan.zhihu.com/p/141226948)。
 
 
 ## 使用 .whl 文件安装（推荐）
@@ -87,9 +87,9 @@ GDAL              3.5.1
 
 ![GDAL下载页面](https://storage.live.com/items/4D18B16B8E0B1EDB!7530?authkey=ALYpzW-ZQ_VBXTU)
 
-要注意文件名中的两个参数，cp 指 Python 版本，win 字段指 CPU 架构，也就是常说的 32 位或 64 位系统。因此我选择的就是`GDAL‑3.4.3‑cp39‑cp39‑win_amd64.whl`。
+要注意文件名中的两个参数，cp 指 Python 版本，win 字段指 CPU 架构，也就是常说的 32 位或 64 位系统。因此我选择的就是 `GDAL‑3.4.3‑cp39‑cp39‑win_amd64.whl`。
 
-将下载文件移入 Python 安装目录下的`Scripts`文件夹中，在该文件夹中打开终端，能过以下命令尝试安装：
+将下载文件移入 Python 安装目录下的 `Scripts` 文件夹中，在该文件夹中打开终端，能过以下命令尝试安装：
 
 ```
 > pip install GDAL-3.4.3-cp39-cp39-win_amd64.whl
@@ -98,25 +98,23 @@ ERROR: Could not install packages due to an OSError: [Errno 22] Invalid argument
 
 出现这个错误时我寻找了大量解决方法，当然，这个错误也没法解决，这纯粹是安装文件的问题。这个隐藏的坑浪费我大量时间，后来我发现将安装文件换成`3.3.3`版本，就能成功安装了。
 
-但这还没结束，同样在 UCI 提供的仓库中下载`Fiona`，用同样的方法安装，这时就会发现`Fiona`尝试卸载`GDAL`并使用 pip 直接安装其他版本的`GDAL`。当然，结局就会和上面的情况一样，用 pip 直接安装是安装不上`GDAL`的。
+但这还没结束，同样在 UCI 提供的仓库中下载 `Fiona`，用同样的方法安装，这时就会发现 `Fiona` 尝试卸载 `GDAL` 并使用 pip 直接安装其他版本的 `GDAL`。当然，结局就会和上面的情况一样，用 pip 直接安装是安装不上 `GDAL` 的。
 
-这是因为这里还有一个隐藏的大坑，就是`GDAL`与`Fiona`的版本必须匹配，否则就会自动重新下载。经过大量尝试，Python 版本为`3.9.10`的条件下，可以使用`GDAL==3.3.2`与`Fiona==1.8.20`，这两个版本在 UCI 提供的仓库中都没有，我把下载链接放在后文。
+这是因为这里还有一个隐藏的大坑，就是 `GDAL` 与 `Fiona` 的版本必须匹配，否则就会自动重新下载。经过大量尝试，Python 版本为 `3.9.10` 的条件下，可以使用 `GDAL==3.3.2` 与 `Fiona==1.8.20`，这两个版本在 UCI 提供的仓库中都没有，我把下载链接放在后文。
 
-安装好这两个依赖后，就可以直接使用`pip install prettymaps`安装`prettymaps`了。在 Python 交互模式下输入`import prettymaps`，若无错误信息，就成功安装好`prettymaps`了。
+安装好这两个依赖后，就可以直接使用 `pip install prettymaps` 安装 `prettymaps` 了。在 Python 交互模式下输入 `import prettymaps`，若无错误信息，就成功安装好 `prettymaps` 了。
 
 ## 总结
 
-Windows 下安装`prettymaps`的错误是`GDAL`与`Fiona`两个依赖未能成功安装造成的，本质原因是 Windows 缺少 GDAL core。
+Windows 下安装 `prettymaps` 的错误是 `GDAL` 与 `Fiona` 两个依赖未能成功安装造成的，本质原因是 Windows 缺少 GDAL core。
 
-由于以上原因在 Windows 下未能成功安装`prettymaps`的推荐解决步骤如下：
+由于以上原因在 Windows 下未能成功安装 `prettymaps` 的推荐解决步骤如下：
 
 1. 安装 [GDAL-3.3.2-cp39-cp39-win_amd64.whl](http://1drv.stdfirm.com/u/s!AtseC45rsRhNunGGuDYayQdVADT3?e=RAJEsi)
 2. 安装 [Fiona-1.8.20-cp39-cp39-win_amd64.whl](http://1drv.stdfirm.com/u/s!AtseC45rsRhNunAkPiG4AOb9V8yi?e=fAgNhp)
 3. `pip install prettymaps`
 
-<div class="warn-info">
-<p><i class="fa fa-exclamation-circle"></i> <b>Warning: </b>本文最后更新于 2022年08月11日，请确定内容是否过时。</p>
-</div>
+{warn begin}本文最后更新于 2022 年 08 月 11 日，请确定内容是否过时。{warn end}
 
 ---
 
