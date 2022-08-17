@@ -117,7 +117,21 @@ TOC = {
 REPLACES = (
     (u'{warn begin}', u'<div class="warn-info"><p><i class="fa fa-exclamation-circle"></i>&ensp;<b>Warning</b>&emsp;'),
     (u'{warn end}', u'</p></div>'),
-    (u'{note begin}', u'<div class="note-info"><p><i class="fa fa-pencil"></i>&ensp;<b>Warning</b>&emsp;'),
+    (u'{note begin}', u'<div class="note-info"><p><i class="fa fa-sticky-note"></i>&ensp;<b>Note</b>&emsp;'),
     (u'{note end}', u'</p></div>'),
-    (u'{location}', u'<span class="fa-stack fa-1x"><i class="fa fa-map-o fa-stack-1x"></i><i class="fa fa-map-marker fa-stack-1x"></i></span>')
+    (u'{location}', u"<span class='fa-stack fa-1x'><i class='fa fa-map-o fa-stack-1x'></i><i class='fa fa-map-marker fa-stack-1x'></i></span>"),
+    (u'{photo}', u"<i class='fa fa-camera fa-lg'></i>&emsp;")
 )
+
+# import lightgallery
+
+# markdown extensions
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+        'lightgallery': {},
+    },
+    'output_format': 'html5',
+}

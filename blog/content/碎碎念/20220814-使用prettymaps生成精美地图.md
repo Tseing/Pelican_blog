@@ -84,7 +84,7 @@ plot(
 
 与示例代码相同，只要将 `perimeter` 留空，默认的绘图模式就是圆形模式。
 
-![上海外滩](https://storage.live.com/items/4D18B16B8E0B1EDB!7539?authkey=ALYpzW-ZQ_VBXTU)
+![!NoCaption](https://storage.live.com/items/4D18B16B8E0B1EDB!7539?authkey=ALYpzW-ZQ_VBXTU)
 
 &emsp;&emsp;&emsp;&emsp;{location}<i>外滩  The Bund, Shanghai</i>
 
@@ -172,7 +172,7 @@ layers = plot(
 )
 ```
 
-![三坊七巷](https://storage.live.com/items/4D18B16B8E0B1EDB!7540?authkey=ALYpzW-ZQ_VBXTU)
+![!NoCaption](https://storage.live.com/items/4D18B16B8E0B1EDB!7540?authkey=ALYpzW-ZQ_VBXTU)
 
 &emsp;&emsp;&emsp;&emsp;{location}<i>三坊七巷  Sanfang Qixiang, Fuzhou</i>
 
@@ -190,7 +190,7 @@ ax.set_ylim(ymin+a*dy, ymax-a*dy)
 
 变量 `a` 表示裁去的四周比例。
 
-![闽江](https://storage.live.com/items/4D18B16B8E0B1EDB!7541?authkey=ALYpzW-ZQ_VBXTU)
+![!NoCaption](https://storage.live.com/items/4D18B16B8E0B1EDB!7541?authkey=ALYpzW-ZQ_VBXTU)
 
 &emsp;&emsp;&emsp;&emsp;{location}<i>闽江  Min River, Fuzhou</i>
 
@@ -290,7 +290,7 @@ plt.savefig('pku.png')
 
 由于 `prettymaps` 的封闭边界太过于靠近建筑，可以使用 `buffer()` 将边界向外扩张一部分，能获得更好的视觉效果。
 
-![北京大学](https://storage.live.com/items/4D18B16B8E0B1EDB!7542?authkey=ALYpzW-ZQ_VBXTU)
+![!NoCaption](https://storage.live.com/items/4D18B16B8E0B1EDB!7542?authkey=ALYpzW-ZQ_VBXTU)
 
 &emsp;&emsp;&emsp;&emsp;{location}<i>北京大学  Peking University, Beijing</i>
 
@@ -319,7 +319,7 @@ plt.savefig('pku.png')
 }
 ```
 
-![天津站](https://storage.live.com/items/4D18B16B8E0B1EDB!7543?authkey=ALYpzW-ZQ_VBXTU)
+![!NoCaption](https://storage.live.com/items/4D18B16B8E0B1EDB!7543?authkey=ALYpzW-ZQ_VBXTU)
 
 &emsp;&emsp;&emsp;&emsp;{location}<i>天津站  Tianjin Railway Station, Tianjin</i>
 
@@ -335,6 +335,6 @@ plt.savefig('pku.png')
 
 OpenStreetMap 的封闭边界是非常亮眼的功能，在 `prettymaps` 中用字符描述地点就能绘制出行政区、建筑群等等。但从另一个方面考虑，OpenStreetMap 的封闭边界是由用户贡献的，所以在涉边境线、涉敏感地区时务必小心。
 
-总而言之，`prettymaps` 为我们提供了另一个视角，让我们俯瞰日常生活的这座城市。而 OpenStreetMap 则是一个伟大的项目，它借助所有人的力量去描绘我们所生活的这个世界，这个理念闪耀着国际主义与理想主义的光芒。
+总而言之，`prettymaps` 为我们提供了另一个视角，让我们俯瞰日常生活的这座城市，感受建筑布局的美。而 OpenStreetMap 可以说是一个伟大的项目，它借助所有人的力量去描绘我们所生活的这个世界的经纬，这个理念闪耀着国际主义与理想主义的光芒。
 
 {warn begin}本文最后更新于 2022 年 08 月 14 日，请确定内容是否过时。{warn end}
