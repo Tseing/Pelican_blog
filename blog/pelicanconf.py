@@ -24,6 +24,9 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+# Select hljs theme
+COLOR_SCHEME_CSS = 'atom-one-light.min.css'
+
 # Blogroll
 LINKS = (('Pelican', 'https://getpelican.com/'),
          ('Python.org', 'https://www.python.org/'),
@@ -128,7 +131,9 @@ REPLACES = (
 # markdown extensions
 MARKDOWN = {
     'extension_configs': {
-        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.codehilite': {'css_class': 'highlight',
+                                           'use_pygments': False,
+                                           'lang_prefix': '',},
         'markdown.extensions.extra': {},
         'markdown.extensions.meta': {},
         'lightgallery': {},

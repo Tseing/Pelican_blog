@@ -41,4 +41,5 @@ output
 - [x] SSR订阅
 - [x] 资料页面
 - [x] sitemap
-- [ ] images lightbox
+- [x] images lightbox
+- [ ] 评论

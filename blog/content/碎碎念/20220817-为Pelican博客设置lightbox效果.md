@@ -2,7 +2,7 @@ title: 为 Pelican 博客设置 Lightbox 效果
 slug:  pelican-lightbox
 date: 2022-08-17
 tags: Blog, Pelican, Markdown, JavaScript
-summary: 如何像社交媒体上发布的图片一样，让博客文章中的图片也能点击放大呢？使用现成的 JavaScript 插件，就能在博客文章中添加这种 Lightbox 效果了，再加上配套的 Python-Markdown 的拓展插件，让 Markdown 写作中的图片效果设置变得更加自由。
+summary: 如何像社交媒体上发布的图片一样，让博客文章中的图片也能点击放大呢？使用 JavaScript 插件，在博客文章中添加这种 Lightbox 效果，再加上配套的 Python-Markdown 的拓展插件，让 Markdown 写作中的图片效果设置变得更加自由。
 
 Markdown 语法简洁而高效，使用 Markdown 撰写博客文章是十分通行的做法。若要在文章中插入图片，需要使用 `![标题](URL)` 语法，Pelican 博客引擎将文章中的 `[标题](URL)` 转换为 html 标签 `<img alt="标题" src="URL">`，就生成了用于发布的静态网页。
 
@@ -12,7 +12,7 @@ Markdown 语法简洁而高效，使用 Markdown 撰写博客文章是十分通�
 
 Lightbox 功能非常常用，因在网上有大量现成的插件，具有 Lightbox 功能的 Pelican 插件包括 [photos](https://github.com/pelican-plugins/photos) 和 [Gallery](https://github.com/getpelican/pelican-plugins/tree/master/gallery) 等。但是它们并不是纯粹的 Lightbox 插件，还具有图片处理、读取 EXIF 信息等功能，我觉得太「重」。
 
-## Lightgallery-markdown
+## 轻量的 lightgallery-markdown
 
 兜兜转转之下，我找到了一个实现 Lightbox 功能的 [Python-Markdown 拓展](https://github.com/g-provost/lightgallery-markdown)。其实原理也很简单，这个拓展能将 `![!标题](URL)` 转换为以下代码：
 
@@ -30,7 +30,7 @@ Lightbox 功能非常常用，因在网上有大量现成的插件，具有 Ligh
 
 Pelican 提供了 Python-Markdown 拓展的接口，先使用 `pip install lightgallery` 安装 lightgallery-markdown，并在 `pelicanconf.py` 中添加
 
-```py
+``` python
 MARKDOWN = {
     'extension_configs': {
         'markdown.extensions.codehilite': {'css_class': 'highlight'},
@@ -46,10 +46,10 @@ MARKDOWN = {
 
 在 [lightgallery.js 项目仓库](https://github.com/sachinchoolur/lightgallery.js)中下载以下文件并放置到相应位置：
 
-- `dist/js/lightgallery.min.js`&emsp;-->&emsp;`themes/{theme_name}/static/js/`
-- `dist/css/lightgallery.min.css`&emsp;-->&emsp;`themes/{theme_name}/css/`
-- `dist/fonts/lg.*`&emsp;-->&emsp;`themes/{theme_name}/font/`
-- `dist/img/loading.gif`&emsp;-->&emsp;`themes/{theme_name}/images/`
+- `dist/js/lightgallery.min.js`&emsp;→&emsp;`themes/{theme_name}/static/js/`
+- `dist/css/lightgallery.min.css`&emsp;→&emsp;`themes/{theme_name}/css/`
+- `dist/fonts/lg.*`&emsp;→&emsp;`themes/{theme_name}/font/`
+- `dist/img/loading.gif`&emsp;→&emsp;`themes/{theme_name}/images/`
 
 {warn begin}由于文件目录结构不同，需要将 `lightgallery.min.css` 中的字体、图片路径修改为相应路径。{warn end}
 
@@ -80,7 +80,7 @@ MARKDOWN = {
 
 于是修改 `lightgallery.js` 文件，修改以下代码块：
 
-```js
+```javascript
 if (typeof subHtml !== 'undefined' && subHtml !== null) {
             if (subHtml === '') {
                 _lgUtils2.default.addClass(this.outer.querySelector(this.s.appendSubHtmlTo), 'lg-empty-html');
@@ -92,13 +92,13 @@ if (typeof subHtml !== 'undefined' && subHtml !== null) {
 
 将判断条件修改为：
 
-```js
+```javascript
 if (subHtml === '' || subHtml === 'NoCaption')
 ```
 
 这时只要是标题设置为 `"NoCaption"` 的图片就不会显示下方信息栏，Pelican 也不会因为缺少标题而给出警告。
 
-{note begin}`lightgallery.min.js` 经过压缩，体积较小，加载速度更快，但代码可读性较差，可以修改 `lightgallery.js` 再压缩为 `lightgallery.min.js`。{note end}
+{note begin}`lightgallery.min.js` 经过压缩，体积较小，加载速度更快，但代码可读性较差，不便于修改，可以先修改 `lightgallery.js` 再压缩为 `lightgallery.min.js`。{note end}
 
 ## Demo 🥳
 
