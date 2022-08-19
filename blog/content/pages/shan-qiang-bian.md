@@ -1,7 +1,5 @@
 title: 山墙边
 slug: shan-qiang-bian
-author: Leo
-summary: 本站的相关链接
 
 - [Pelican 文档](https://docs.getpelican.com/en/latest/index.html)
 - [Attila 主题](https://github.com/arulrajnet/attila)

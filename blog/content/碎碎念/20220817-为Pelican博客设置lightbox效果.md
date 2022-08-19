@@ -10,7 +10,7 @@ Markdown 语法简洁而高效，使用 Markdown 撰写博客文章是十分通�
 
 各类社交网站上的常规做法是，使用 CSS 文件决定合适的缩略图尺寸，点击缩略图后放大图片。点击缩略图放大的效果就像在暗室中使用的放映机，这个效果就被称为 Lightbox。
 
-Lightbox 功能非常常用，因在网上有大量现成的插件，具有 Lightbox 功能的 Pelican 插件包括 [photos](https://github.com/pelican-plugins/photos) 和 [Gallery](https://github.com/getpelican/pelican-plugins/tree/master/gallery) 等。但是它们并不是纯粹的 Lightbox 插件，还具有图片处理、读取 EXIF 信息等功能，我觉得太「重」。
+Lightbox 功能非常常用，因此在网上有大量现成的插件，具有 Lightbox 功能的 Pelican 插件包括 [photos](https://github.com/pelican-plugins/photos) 和 [Gallery](https://github.com/getpelican/pelican-plugins/tree/master/gallery) 等。但是它们并不是纯粹的 Lightbox 插件，还具有图片处理、读取 EXIF 信息等功能，我觉得太「重」。
 
 ## 轻量的 lightgallery-markdown
 
