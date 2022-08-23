@@ -71,8 +71,8 @@ extensions/gdal_wrap.cpp(2883): fatal error C1083: 无法打开包括文件: “
 
 安装完成后，使用 pip 可以查询到 `GDAL` 的安装信息：
 
-```
-> pip list
+```python-repl
+>>> pip list
 Package           Version
 ----------------- -------
 GDAL              3.5.1
@@ -91,8 +91,8 @@ GDAL              3.5.1
 
 将下载文件移入 Python 安装目录下的 `Scripts` 文件夹中，在该文件夹中打开终端，能过以下命令尝试安装：
 
-```
-> pip install GDAL-3.4.3-cp39-cp39-win_amd64.whl
+```python-repl
+>>> pip install GDAL-3.4.3-cp39-cp39-win_amd64.whl
 ERROR: Could not install packages due to an OSError: [Errno 22] Invalid argument
 ```
 
