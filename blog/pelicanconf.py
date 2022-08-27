@@ -140,3 +140,5 @@ MARKDOWN = {
     },
     'output_format': 'html5',
 }
+
+CSS_OVERRIDE = ['theme/css/plugins.css']

@@ -86,7 +86,7 @@ plot(
 
 ![!NoCaption](https://storage.live.com/items/4D18B16B8E0B1EDB!7539?authkey=ALYpzW-ZQ_VBXTU)
 
-{location}<i>外滩  The Bund, Shanghai</i>
+<p class='intro'>{location}外滩  The Bund, Shanghai</p>
 
 ## 圆角矩形模式
 
@@ -174,7 +174,7 @@ layers = plot(
 
 ![!NoCaption](https://storage.live.com/items/4D18B16B8E0B1EDB!7540?authkey=ALYpzW-ZQ_VBXTU)
 
-{location}<i>三坊七巷  Sanfang Qixiang, Fuzhou</i>
+<p class='intro'>{location}三坊七巷  Sanfang Qixiang, Fuzhou</p>
 
 ## 方形模式
 
@@ -192,7 +192,7 @@ ax.set_ylim(ymin+a*dy, ymax-a*dy)
 
 ![!NoCaption](https://storage.live.com/items/4D18B16B8E0B1EDB!7541?authkey=ALYpzW-ZQ_VBXTU)
 
-{location}<i>闽江  Min River, Fuzhou</i>
+<p class='intro'>{location}闽江  Min River, Fuzhou</p>
 
 ## 进阶操作
 
@@ -292,7 +292,7 @@ plt.savefig('pku.png')
 
 ![!NoCaption](https://storage.live.com/items/4D18B16B8E0B1EDB!7542?authkey=ALYpzW-ZQ_VBXTU)
 
-{location}<i>北京大学  Peking University, Beijing</i>
+<p class='intro'>{location}北京大学  Peking University, Beijing</p>
 
 调用相应的图层标签，还可以绘制铁路、地铁线路。以下代码调用了了铁路、地铁、站台并将这些元素各自组合为图层：
 
@@ -321,7 +321,7 @@ plt.savefig('pku.png')
 
 ![!NoCaption](https://storage.live.com/items/4D18B16B8E0B1EDB!7543?authkey=ALYpzW-ZQ_VBXTU)
 
-{location}<i>天津站  Tianjin Railway Station, Tianjin</i>
+<p class='intro'>{location}天津站  Tianjin Railway Station, Tianjin</p>
 
 ## 自己的话
 
