@@ -50,7 +50,7 @@ MARKUP = ("md", "ipynb")
 
 PLUGIN_PATHS = ['plugins']
 from pelican_jupyter import markup as nb_markup
-PLUGINS = [nb_markup, 'pelican-toc', 'render_math', 'sitemap', 'replacer']
+PLUGINS = [nb_markup, 'pelican-toc', 'render_math', 'sitemap', 'replacer', 'neighbors']
 IGNORE_FILES = [".ipynb_checkpoints"]
 IPYNB_SKIP_CSS=True
 
