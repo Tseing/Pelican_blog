@@ -3,6 +3,8 @@ slug: shan-qiang-bian
 
 > 这里收藏了一些常用链接与友链。
 
+- 平话相关
+    - [榕典：闽东方言线上辞典](https://www.ydict.net)
 - 博客相关
     - [Pelican 文档](https://docs.getpelican.com/en/latest/index.html)
     - [Attila 主题](https://github.com/arulrajnet/attila)

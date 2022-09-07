@@ -8,7 +8,6 @@ SITEURL = 'https://tseing.github.io'
 PATH = 'content'
 
 TIMEZONE = 'Asia/Shanghai'
-
 DEFAULT_LANG = 'zh-CN'
 
 DEFAULT_DATE_FORMAT = '%Y年 %b%d日'

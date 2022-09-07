@@ -42,4 +42,4 @@ output
 - [x] 资料页面
 - [x] sitemap
 - [x] images lightbox
-- [ ] 评论
+- [x] 评论

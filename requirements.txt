@@ -18,6 +18,7 @@ executing==0.8.3
 fastjsonschema==2.15.3
 feedgenerator==2.0.0
 fonttools==4.34.4
+future==0.18.2
 importlib-metadata==4.12.0
 ipykernel==6.15.1
 ipython==8.4.0
@@ -33,6 +34,7 @@ jupyter-core==4.11.1
 jupyterlab-pygments==0.2.2
 jupyterlab-widgets==1.1.1
 kiwisolver==1.4.3
+lightgallery==0.5
 Markdown==3.3.7
 MarkupSafe==2.1.1
 matplotlib==3.5.2
@@ -49,6 +51,7 @@ pandocfilters==1.5.0
 parso==0.8.3
 pelican==4.8.0
 pelican-jupyter==0.10.1
+pelican-neighbors==1.2.0
 pelican-render-math==1.0.3
 pelican-sitemap==1.0.2
 pexpect==4.8.0
