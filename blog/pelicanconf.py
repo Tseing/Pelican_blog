@@ -46,6 +46,7 @@ OUTPUT_RETENTION = [".git", "favicon.ico", "googleee5bb3f0889ddb20.html", "BingS
 
 # md与jupyter两种布局
 MARKUP = ("md", "ipynb")
+IPYNB_MARKUP_USE_FIRST_CELL = True
 
 PLUGIN_PATHS = ['plugins']
 from pelican_jupyter import markup as nb_markup
