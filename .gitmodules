@@ -1,6 +1,6 @@
 [submodule "blog/output"]
 	path = blog/output
-	url = https://github.com/Tseing/tseing.github.io.git
+	url = https://github.com/Tseing/leonis.cc.git
 [submodule "blog/themes/attila"]
 	path = blog/themes/attila
 	url = https://github.com/Tseing/attila.git
