@@ -75,7 +75,7 @@ img[alt~="center"] {
 
 ## 一个我创建的模版
 
-Marp 中的样式是由 CSS 文件定义的，因此只要会使用 CSS，就能创建自己的主题。我制作了一个适用于各种汇报和答辩的 slide 主题，主题项目已经发布到 Github 了， [<i class="fa fa-github fa-lg"></i> Marp-Theme-NKU](https://github.com/Tseing/Marp-Theme-NKU) 仓库页面有更详细的介绍和安装方法。
+Marp 中的样式是由 CSS 文件定义的，因此只要会使用 CSS，就能创建自己的主题。我制作了一个适用于各种汇报和答辩的 slide 主题，主题项目已经发布到 GitHub 了， [<i class="fa fa-github fa-lg"></i> Marp-Theme-NKU](https://github.com/Tseing/Marp-Theme-NKU) 仓库页面有更详细的介绍和安装方法。
 
 ![page1](https://storage.live.com/items/4D18B16B8E0B1EDB!7687?authkey=ALYpzW-ZQ_VBXTU)
 ![page2](https://storage.live.com/items/4D18B16B8E0B1EDB!7688?authkey=ALYpzW-ZQ_VBXTU)

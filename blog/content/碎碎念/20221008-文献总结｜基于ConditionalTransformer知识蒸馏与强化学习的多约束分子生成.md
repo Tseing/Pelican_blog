@@ -1,10 +1,10 @@
 title: 文献总结｜基于 Conditional Transformer、知识蒸馏与强化学习的多约束分子生成
 slug:  summary-doi.org/10.1038/s42256-021-00403-1
 date: 2022-10-08
-tags: Literature Summary, CADD
+tags: Literature Summary, CADD, Transformer
 summary: 本文介绍了来自浙江大学侯廷军老师的工作，文章原标题为 Multi-constraint molecular generation based on conditional transformer, knowledge distillation and reinforcement learning，于 2021 年发表在 Nature Machine Intelligence 上。文章基于 transformer 建立了分子生成模型，并借助知识蒸馏与强化学习算法，提出了一种新的分子生成模型。
 
-本文介绍了来自浙江大学侯廷军老师的工作，文章原标题为 <i>Multi-constraint molecular generation based on conditional transformer, knowledge distillation and reinforcement learning</i>，于 2021 年发表在 <i>Nature Machine Intelligence</i> 上。文章基于 transformer 建立了分子生成模型，并借助知识蒸馏与强化学习算法，提出了一种新的分子生成模型，该模型能够顺利完成药物分子生成这样的多约束优化问题。
+本文介绍了来自浙江大学侯廷军老师的工作，文章原标题为 Multi-constraint molecular generation based on conditional transformer, knowledge distillation and reinforcement learning，于 2021 年发表在 *Nature Machine Intelligence* 上。文章基于 transformer 建立了分子生成模型，并借助知识蒸馏与强化学习算法，提出了一种新的分子生成模型，该模型能够顺利完成药物分子生成这样的多约束优化问题。
 
 <i class="fa fa-external-link"></i> [doi.org/10.1038/s42256-021-00403-1](https://doi.org/10.1038/s42256-021-00403-1)
 
@@ -96,7 +96,7 @@ $$\mathrm{Loss}=[\log p(A)_{\mathrm{aug}}-\log p(A)_{\mathrm{agent}}]^2$$
 生成分子集为 $G$，测试集为 $T$，MOSES 指标：
 
 - $\mathrm{Novelty}=1-\frac{|\mathrm{set}(G\cap T)|}{G}$
-- $\mathrm{IntDiv(G)}=1-\frac{1}{|\mathrm{set}(G)|^2}\sum_{(X,Y)\in\mathrm{set}(G)}\mathrm{sim}(X,Y)$
+- $\mathrm{IntDiv}(G)=1-\frac{1}{|\mathrm{set}(G)|^2}\sum_{(X,Y)\in\mathrm{set}(G)}\mathrm{sim}(X,Y)$
 - Frag：衡量训练集与测试集中不同的分子片段出现频率，用 RDKit 的 BRICS 函数计算。
 - SNN：生成分子中分子与训练集中其最近邻分子的平均谷本系数。
 

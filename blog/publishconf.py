@@ -7,7 +7,7 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 # If your site is available via HTTPS, make sure SITEURL begins with https://
-SITEURL = 'https://tseing.github.io'
+SITEURL = 'https://leonis.cc'
 # Developing url
 # SITEURL = 'http://localhost:8000'
 RELATIVE_URLS = False

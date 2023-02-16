@@ -55,7 +55,7 @@ layers = plot(
 plt.savefig('macao.png')
 ```
 
-但是拋出了错误，提示 `AttributeError: 'DataFrame' object has no attribute 'crs'`。在 [Github](https://github.com/marceloprates/prettymaps/issues/88) 上有人给出了解决方案，原因是 `osmnx` 的版本过低，直接 `pip install osmnx==1.2.1` 就可以解决。
+但是拋出了错误，提示 `AttributeError: 'DataFrame' object has no attribute 'crs'`。在 [GitHub](https://github.com/marceloprates/prettymaps/issues/88) 上有人给出了解决方案，原因是 `osmnx` 的版本过低，直接 `pip install osmnx==1.2.1` 就可以解决。
 
 需要注意的是，pip 可能会给出错误信息提示 `osmnx==1.2.1` 与 `prettymaps` 不兼容。但同样给出了已成功安装 `osmnx==1.2.1` 的信息。经过我的尝试，`prettymaps` 是可以正常工作的，所以这条错误信息可能没有什么影响。
 
@@ -336,5 +336,3 @@ plt.savefig('pku.png')
 OpenStreetMap 的封闭边界是非常亮眼的功能，在 `prettymaps` 中用字符描述地点就能绘制出行政区、建筑群等等。但从另一个方面考虑，OpenStreetMap 的封闭边界是由用户贡献的，所以在涉边境线、涉敏感地区时务必小心。
 
 总而言之，`prettymaps` 为我们提供了另一个视角，让我们俯瞰日常生活的这座城市，感受建筑布局的美。而 OpenStreetMap 可以说是一个伟大的项目，它借助所有人的力量去描绘我们所生活的这个世界的经纬，这个理念闪耀着国际主义与理想主义的光芒。
-
-{warn begin}本文最后更新于 2022 年 08 月 14 日，请确定内容是否过时。{warn end}

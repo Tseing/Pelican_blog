@@ -1,7 +1,7 @@
 AUTHOR = 'Leo'
 SITENAME = "Leo's blog"
 SITESUBTITLE = 'A nook to hoard my manuscripts.'
-SITEURL = 'https://tseing.github.io'
+SITEURL = "https://leonis.cc"
 # Developing url
 # SITEURL = 'http://localhost:8000'
 
@@ -42,7 +42,7 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 # 导出时不删除的文件
-OUTPUT_RETENTION = [".git", "favicon.ico", "googleee5bb3f0889ddb20.html", "BingSiteAuth.xml"]
+OUTPUT_RETENTION = [".git", ".gitignore", "favicon.ico", "robots.txt"]
 
 # md与jupyter两种布局
 MARKUP = ("md", "ipynb")
@@ -57,7 +57,7 @@ IPYNB_SKIP_CSS=True
 THEME = "themes/attila"
 
 # default articles cover
-HEADER_COVER = "https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNuU3h7utB_z6MEPLq/root/content"
+HEADER_COVER = "https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNwFfSnZ1Pc1osKbni/root/content"
 
 # default theme cover
 # HOME_COVER = "https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNuU50-T6H01shIvBa/root/content"

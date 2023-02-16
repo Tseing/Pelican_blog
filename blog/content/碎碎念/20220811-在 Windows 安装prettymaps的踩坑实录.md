@@ -9,7 +9,7 @@ summary: prettymaps 是一个 Python 地图绘图包，在 matplotlib 绘图包�
 
 ## 尝试直接使用 pip 安装
 
-在项目的 [Github 仓库](https://github.com/marceloprates/prettymaps)中，作者提供的方法是直接通过 `pip install prettymaps` 安装，但是在 Windows 设备上貌似不起作用。命令行信息提示在安装 `Fiona` 时发生错误，错误信息如下：
+在项目的 [GitHub 仓库](https://github.com/marceloprates/prettymaps)中，作者提供的方法是直接通过 `pip install prettymaps` 安装，但是在 Windows 设备上貌似不起作用。命令行信息提示在安装 `Fiona` 时发生错误，错误信息如下：
 
 ```
   Using cached Fiona-1.8.21.tar.gz (1.0 MB)
@@ -113,8 +113,6 @@ Windows 下安装 `prettymaps` 的错误是 `GDAL` 与 `Fiona` 两个依赖未�
 1. 安装 [GDAL-3.3.2-cp39-cp39-win_amd64.whl](http://1drv.stdfirm.com/u/s!AtseC45rsRhNunGGuDYayQdVADT3?e=RAJEsi)
 2. 安装 [Fiona-1.8.20-cp39-cp39-win_amd64.whl](http://1drv.stdfirm.com/u/s!AtseC45rsRhNunAkPiG4AOb9V8yi?e=fAgNhp)
 3. `pip install prettymaps`
-
-{warn begin}本文最后更新于 2022 年 08 月 11 日，请确定内容是否过时。{warn end}
 
 ---
 
