@@ -3,13 +3,13 @@ slug: about
 
 <aside class="post-author" style="margin-left: 0px;margin-right: 0px;border-top: none;border-bottom: 1px solid #e5e4e1;">
         <figure class="post-author-avatar">
-            <img src="http://tseing.github.io/images/avatar.jpeg" alt="Leo" />
+            <img src="http://leonis.cc/images/avatar.jpeg" alt="Leo" />
         </figure>
     <div class="post-author-bio">
-        <h4 class="post-author-name"><a href="http://tseing.github.io/author/leo.html">Leo</a></h4>
+        <h4 class="post-author-name"><a href="http://leonis.cc/author/leo.html">Leo</a></h4>
         <p class="post-author-about">A biochemist who doesn't know about artificial intelligence isn't a good programmer. Cool, huh?</p>
         <span class="post-author-location"><i class="ic ic-location"></i> Tientsin</span>
-        <span class="post-author-website"><a href="http://tseing.github.io"><i class="ic ic-link"></i> Website</a></span>
+        <span class="post-author-website"><a href="http://leonis.cc"><i class="ic ic-link"></i> Website</a></span>
         <!-- Social linkes in alphabet order. -->
         <span class="post-author-github"><a target="_blank" href="https://github.com/Tseing"><i class="ic ic-link"></i> GitHub</a></span>
         <span class="post-author-email"><a target="_blank" href="mailto:im.yczeng@outlook.com"><i class="fa fa-envelope fa-fw"></i>  im.yczeng@outlook.com</a></span>
