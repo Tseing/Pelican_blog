@@ -50,7 +50,7 @@ IPYNB_MARKUP_USE_FIRST_CELL = True
 
 PLUGIN_PATHS = ['plugins']
 from pelican_jupyter import markup as nb_markup
-PLUGINS = [nb_markup, 'pelican-toc', 'render_math', 'sitemap', 'replacer', 'neighbors']
+PLUGINS = [nb_markup, 'pelican-toc', 'render_math', 'sitemap', 'replacer', 'neighbors', 'pelican-bookshelf']
 IGNORE_FILES = [".ipynb_checkpoints"]
 IPYNB_SKIP_CSS=True
 
@@ -141,4 +141,8 @@ MARKDOWN = {
     'output_format': 'html5',
 }
 
-CSS_OVERRIDE = ['theme/css/plugins.css']
+CSS_OVERRIDE = ['theme/css/plugins.css', 'theme/css/bookshelf.css']
+
+BOOKSHELF = {"INFOS": ["出版年", "页数", "定价", "ISBN"],
+             "SAVE_TO_MD": True,
+             "WAIT_TIME": 2}
