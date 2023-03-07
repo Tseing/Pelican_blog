@@ -78,7 +78,7 @@ AUTHORS_BIO = {
   "leo": {
     "name": "Leo",
     "cover": "https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNuUZNJKuT3c_gI4Jh/root/content",
-    "image": SITEURL + "/images/avatar.jpeg",
+    "image": SITEURL + "/images/avatar.jpg",
     "website": SITEURL,
     "github": "Tseing",
     "location": "Tientsin",
@@ -141,8 +141,8 @@ MARKDOWN = {
     'output_format': 'html5',
 }
 
-CSS_OVERRIDE = ['theme/css/plugins.css', 'theme/css/bookshelf.css']
+CSS_OVERRIDE = ['theme/css/plugins.css', 'theme/css/fonts.css', 'theme/css/bookshelf.css']
 
 BOOKSHELF = {"INFOS": ["出版年", "页数", "定价", "ISBN"],
-             "SAVE_TO_MD": True,
+             "SAVE_TO_MD": False,
              "WAIT_TIME": 2}

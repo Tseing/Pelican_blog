@@ -336,3 +336,7 @@ plt.savefig('pku.png')
 OpenStreetMap 的封闭边界是非常亮眼的功能，在 `prettymaps` 中用字符描述地点就能绘制出行政区、建筑群等等。但从另一个方面考虑，OpenStreetMap 的封闭边界是由用户贡献的，所以在涉边境线、涉敏感地区时务必小心。
 
 总而言之，`prettymaps` 为我们提供了另一个视角，让我们俯瞰日常生活的这座城市，感受建筑布局的美。而 OpenStreetMap 可以说是一个伟大的项目，它借助所有人的力量去描绘我们所生活的这个世界的经纬，这个理念闪耀着国际主义与理想主义的光芒。
+
+{warn begin}悲报：OpenStreetMap 在国内已经被墙，所以 prettymaps 也就完全用不了了 😕
+——2023 年 03 月 07 日 志
+{warn end}
