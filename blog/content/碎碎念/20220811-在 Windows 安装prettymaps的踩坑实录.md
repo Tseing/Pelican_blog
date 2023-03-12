@@ -110,8 +110,8 @@ Windows 下安装 `prettymaps` 的错误是 `GDAL` 与 `Fiona` 两个依赖未�
 
 由于以上原因在 Windows 下未能成功安装 `prettymaps` 的推荐解决步骤如下：
 
-1. 安装 [GDAL-3.3.2-cp39-cp39-win_amd64.whl](http://1drv.stdfirm.com/u/s!AtseC45rsRhNunGGuDYayQdVADT3?e=RAJEsi)
-2. 安装 [Fiona-1.8.20-cp39-cp39-win_amd64.whl](http://1drv.stdfirm.com/u/s!AtseC45rsRhNunAkPiG4AOb9V8yi?e=fAgNhp)
+1. 安装 [GDAL-3.3.2-cp39-cp39-win_amd64.whl](https://www.jianguoyun.com/p/DWCBLasQ2du5CxjCovsEIAA)
+2. 安装 [Fiona-1.8.20-cp39-cp39-win_amd64.whl](https://www.jianguoyun.com/p/DbxmgnYQ2du5CxjEovsEIAA)
 3. `pip install prettymaps`
 
 ---

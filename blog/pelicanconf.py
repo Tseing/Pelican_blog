@@ -56,9 +56,10 @@ IPYNB_SKIP_CSS=True
 
 THEME = "themes/attila"
 
+# article modified time
+SHOW_MODIFIED_TIME = True
 # default articles cover
 HEADER_COVER = "https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNwFfSnZ1Pc1osKbni/root/content"
-
 # default theme cover
 # HOME_COVER = "https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNuU50-T6H01shIvBa/root/content"
 HOME_COVER = "https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNunLc0Y-tTns1SGA5/root/content"
@@ -78,14 +79,17 @@ AUTHORS_BIO = {
   "leo": {
     "name": "Leo",
     "cover": "https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNuUZNJKuT3c_gI4Jh/root/content",
-    "image": SITEURL + "/images/avatar.jpg",
+    "image": "https://cravatar.cn/avatar/95e31f6808fafa1f8ef3313b6f0b10e6?s=800",
     "website": SITEURL,
     "github": "Tseing",
     "location": "Tientsin",
     "email": "im.yczeng@outlook.com",
-    "bio": "A biochemist who doesn't know about artificial intelligence isn't a good programmer. Cool, huh?"
+    "bio": "A biochemist who doesn't know about classical literature isn't a good programmer. Cool, huh?"
   }
 }
+
+# MathJax(3.2.0)
+MATH_JAX = {"source": "'https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/mathjax/3.2.0/es5/tex-mml-chtml.js'"}
 
 # sitemap
 SITEMAP = {
@@ -123,7 +127,6 @@ REPLACES = (
     (u'{note begin}', u'<div class="note-info"><p><i class="fa fa-sticky-note"></i>&ensp;<b>Note</b>&emsp;'),
     (u'{note end}', u'</p></div>'),
     (u'{location}', u"<span class='fa-stack fa-1x'><i class='fa fa-map-o fa-stack-1x'></i><i class='fa fa-map-marker fa-stack-1x'></i></span>"),
-    (u'{photo}', u"<i class='fa fa-camera fa-lg'></i>&emsp;")
 )
 
 # import lightgallery
@@ -137,6 +140,11 @@ MARKDOWN = {
         'markdown.extensions.extra': {},
         'markdown.extensions.meta': {},
         'lightgallery': {},
+        'markdown_link_attr_modifier': {
+            'new_tab': 'on',
+            'no_referrer': 'off',
+            'auto_title': 'off',
+        },
     },
     'output_format': 'html5',
 }

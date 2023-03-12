@@ -10,9 +10,9 @@ slug: shan-qiang-bian
     - [Jinja2 文档](http://docs.jinkan.org/docs/jinja2/index.html)
 
 <div class="links">
-    <a href="http://leonis.cc">
+    <a rel="noopener" target="_blank" href="http://leonis.cc">
         <div class="link">
-            <img src="https://cravatar.cn/avatar/95e31f6808fafa1f8ef3313b6f0b10e6">
+            <img src="https://cravatar.cn/avatar/95e31f6808fafa1f8ef3313b6f0b10e6?s=800">
             <div class="link-content">
                 <p class="name">Leo's blog</p>
                 <p class="text">数间茅舍，藏书万卷，投老村家。</p>
@@ -27,5 +27,5 @@ slug: shan-qiang-bian
 名称: Leo's blog
 简介: 数间茅舍，藏书万卷，投老村家。
 地址: https://leonis.cc
-头像: https://cravatar.cn/avatar/95e31f6808fafa1f8ef3313b6f0b10e6
+头像: https://cravatar.cn/avatar/95e31f6808fafa1f8ef3313b6f0b10e6?s=800
 ```
