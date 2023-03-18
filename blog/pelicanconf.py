@@ -50,7 +50,8 @@ IPYNB_MARKUP_USE_FIRST_CELL = True
 
 PLUGIN_PATHS = ['plugins']
 from pelican_jupyter import markup as nb_markup
-PLUGINS = [nb_markup, 'pelican-toc', 'render_math', 'sitemap', 'replacer', 'neighbors', 'pelican-bookshelf']
+PLUGINS = [nb_markup, 'pelican-toc', 'render_math', 'sitemap', 'replacer',
+           'neighbors', 'pelican-bookshelf', 'search']
 IGNORE_FILES = [".ipynb_checkpoints"]
 IPYNB_SKIP_CSS=True
 
@@ -119,6 +120,9 @@ TOC = {
 
     'TOC_INCLUDE_TITLE':  'false',   # If 'true' include title in toc
 }
+
+# pelican-search
+SEARCH_HTML_SELECTOR = ".post-content"
 
 # code replace to
 REPLACES = (

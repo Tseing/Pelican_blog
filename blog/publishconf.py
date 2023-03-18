@@ -13,6 +13,7 @@ SITEURL = 'https://leonis.cc'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feed.xml'
+FEED_MAX_ITEMS = 20
 # CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True

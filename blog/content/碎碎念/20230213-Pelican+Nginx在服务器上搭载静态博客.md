@@ -1,7 +1,7 @@
 title: Pelican + Nginx 在服务器上搭载静态博客
 slug: deploy-pelican-by-nginx
 date: 2023-02-13
-tags: Blog, Pelian, Nginx, Linux
+tags: Blog, Pelican, Nginx, Linux
 summary: 去年购置了一个服务器，由于后来太忙，一直没有时间折腾，终于有一段空闲的时间了，就尝试把我的 Pelican Blog 从 GitHub Pages 搬迁到服务器上，再通过 Nginx 部署我的站点。
 
 去年黑色星期五低价购置了一个海外服务器，由于后来太忙，一直没有时间折腾，终于有一段空闲的时间了。想到的我博客一直部署在 GitHub Pages 上，访问速度慢不说，还会由于各种的原因时常无法连接，所以动手把它搬到自己的服务器上吧。
