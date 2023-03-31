@@ -10,13 +10,13 @@ slug: about
         <p class="post-author-about">A biochemist who doesn't know about classical literature isn't a good programmer. Cool, huh?</p>
         <span class="post-author-location"><i class="ic ic-location"></i> Tientsin</span>
         <span class="post-author-website"><a rel="noopener" target="_blank" href="https://leonis.cc"><i class="ic ic-link"></i> Website</a></span>
-        <span class="post-author-github"><a rel="noopener" target="_blank" href="https://github.com/Tseing"><i class="ic ic-link"></i> GitHub</a></span>
-        <span class="post-author-email"><a rel="noopener" target="_blank" href="mailto:im.yczeng@outlook.com"><i class="fa fa-envelope fa-fw"></i>  im.yczeng@outlook.com</a></span>
+        <span class="post-author-github"><a rel="noopener" target="_blank" href="https://github.com/Tseing"><i class="ic ic-github"></i> GitHub</a></span>
+        <span class="post-author-email"><a rel="noopener" target="_blank" href="mailto:im.yczeng@outlook.com"><i class="ic ic-mail"></i>  im.yczeng@outlook.com</a></span>
     </div>
     <div class="clear"></div>
 </aside>
 
-<img src="https://storage.live.com/items/4D18B16B8E0B1EDB!8636?authkey=ALYpzW-ZQ_VBXTU" style="width: 100%; filter: none; margin-bottom: 0;">
+<img src="https://storage.live.com/items/4D18B16B8E0B1EDB!8636?authkey=ALYpzW-ZQ_VBXTU" style="width: 100%; box-shadow: none; margin-bottom: 0;">
 
 👋 你好，朋友！欢迎来到我的博客！
 
@@ -62,10 +62,16 @@ slug: about
 
 - **碎碎念：** 理论与技术相关的文章，通常比较芜杂难理，需要「时时勤拂拭，勿使惹尘埃」；
 - **故纸堆：** 文史与阅读相关的文章，撰写的时候常常需要翻阅参考许多书籍，写着写着就垒起了一案的纸堆；
-- **在路上：** 随笔与不严肃的文章，东坡句「人生如逆旅，我亦是行人」（`HTTP 404:` 还未扫好落叶 🍂）；
+- **在路上：** 随笔与不严肃的文章，东坡句「人生如逆旅，我亦是行人」；
 - **山墙边：** 存放常用的链接与友链，「山墙」是传统民居侧面的墙，而「山墙边」自然是仅一墙之隔的邻居，在互联网上不论天涯与海角，总能比邻而居。
 
 欢迎通过 RSS 订阅，也欢迎使用 GitHub 或邮件联系我，指出文章中的错误，十分感谢！
+
+## 🗺️ My Footprint
+
+<div id="map">
+<iframe id="map-html" src='../map.html' scrolling="no"></iframe>
+</div>
 
 ## ✨ Ideas
 
@@ -73,10 +79,11 @@ slug: about
 
 - <i class="fa fa-square-o"></i> 把买的书看完（买书如山倒，读书如抽丝，不是件容易事 😭）
 - <i class="fa fa-square-o"></i> 爬遍五岳和黄山 ⛰️
-- <i class="fa fa-square-o"></i> 看看黄河的入海口 🌊
+- <i class="fa fa-square-o"></i> 看看长江与黄河（1/2）
 - <i class="fa fa-square-o"></i> 学会画像素画 🎨
 - <i class="fa fa-square-o"></i> 临完一百方汉印
 - <i class="fa fa-square-o"></i> 临完十遍《王福庵说文部目》（2/10）
+- <i class="fa fa-square-o"></i> 背下《诗经》
 
 ## ✍️ Format and Glyph
 

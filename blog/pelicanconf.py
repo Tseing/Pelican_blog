@@ -37,12 +37,13 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
+SUMMARY_MAX_LENGTH = 100
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
 # 导出时不删除的文件
-OUTPUT_RETENTION = [".git", ".gitignore", "favicon.ico", "robots.txt"]
+OUTPUT_RETENTION = [".git", ".gitignore", "favicon.ico", "robots.txt", "map.html"]
 
 # md与jupyter两种布局
 MARKUP = ("md", "ipynb")
@@ -58,7 +59,7 @@ IPYNB_SKIP_CSS=True
 THEME = "themes/attila"
 
 # article modified time
-SHOW_MODIFIED_TIME = True
+SHOW_MODIFIED_TIME = False
 # default articles cover
 HEADER_COVER = "https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNwFfSnZ1Pc1osKbni/root/content"
 # default theme cover
@@ -153,7 +154,7 @@ MARKDOWN = {
     'output_format': 'html5',
 }
 
-CSS_OVERRIDE = ['theme/css/plugins.css', 'theme/css/fonts.css', 'theme/css/bookshelf.css']
+CSS_OVERRIDE = ['theme/css/plugins.css', 'theme/css/bookshelf.css']
 
 BOOKSHELF = {"INFOS": ["出版年", "页数", "定价", "ISBN"],
              "SAVE_TO_MD": False,
