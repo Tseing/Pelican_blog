@@ -82,7 +82,7 @@ slug: about
 - <i class="fa fa-square-o"></i> 看看长江与黄河（1/2）
 - <i class="fa fa-square-o"></i> 学会画像素画 🎨
 - <i class="fa fa-square-o"></i> 临完一百方汉印
-- <i class="fa fa-square-o"></i> 临完十遍《王福庵说文部目》（2/10）
+- <i class="fa fa-square-o"></i> 临完十遍《王福庵说文部目》（5/10）
 - <i class="fa fa-square-o"></i> 背下《诗经》
 
 ## ✍️ Format and Glyph

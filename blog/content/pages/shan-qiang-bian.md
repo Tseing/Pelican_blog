@@ -35,6 +35,16 @@ slug: shan-qiang-bian
         </div>
     </a>
 
+    <a rel="noopener" target="_blank" href="https://youngforever.tech">
+        <div class="link">
+            <img src="https://youngforever.tech/img/avatar_huee84e2c56840f3483a5fc1306f905ef2_56463_288x288_fill_box_center_3.png">
+            <div class="link-content">
+                <p class="name" title="从百草园到三味书屋">从百草园到三味书屋</p>
+                <p class="text">别忘了思考</p>
+            </div>
+        </div>
+    </a>
+
     <a rel="noopener" target="_blank" href="https://leonis.cc">
         <div class="link">
             <img src="https://cravatar.cn/avatar/95e31f6808fafa1f8ef3313b6f0b10e6?s=800">
