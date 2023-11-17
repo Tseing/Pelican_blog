@@ -73,6 +73,7 @@ MENUITEMS = [("碎碎念", SITEURL + "/category/sui-sui-nian.html"),
              ("故纸堆", SITEURL + "/category/gu-zhi-dui.html"),
              ("在路上", SITEURL + "/category/zai-lu-shang.html"),
              ("山墙边", SITEURL + "/pages/shan-qiang-bian.html"),
+             ("破橱簏", "https://boulder-eoraptor-e45.notion.site/093af471f4f749628fd4ddc244a6b08d?v=3ec2eda75795443bb9530c901685a54b&pvs=4"),
              ("Tags", SITEURL + "/tags.html"),
              ("About", SITEURL + "/pages/about.html")]
 
@@ -123,7 +124,16 @@ TOC = {
 }
 
 # pelican-search
-SEARCH_HTML_SELECTOR = ".post-content"
+
+STORK_INPUT_OPTIONS = {
+    "html_selector": ".post-content",
+    "exclude_html_selector": "script, pre, .toc-nav, .math"
+}
+
+STORK_OUTPUT_OPTIONS = {
+    "excerpts_per_result": 1
+}
+
 
 # code replace to
 REPLACES = (
@@ -143,6 +153,7 @@ MARKDOWN = {
                                            'use_pygments': False,
                                            'lang_prefix': '',},
         'markdown.extensions.extra': {},
+        'markdown.extensions.tables': {},
         'markdown.extensions.meta': {},
         'lightgallery': {},
         'markdown_link_attr_modifier': {
