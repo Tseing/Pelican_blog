@@ -106,7 +106,7 @@ slug: about
 
 再说说我使用的字体，初次看到鄙站的读者或许会觉得显示的文字有些怪异，这是因为我个人更喜欢传统字形，所以选用思源黑体韩文版作为正文字体，并用思源黑体简体中文版补足缺字。我有时还会引一些古籍中的字句，如果使用简化字就不够妥帖了，所以简繁混用可能会是比较常见的事。以上这些小心思大抵是不太符合出版一类的规范的，但既然这里是我自有的一方天地，那大可不遵守那些规矩而随着我的心意安排了。
 
-最近遇到一款思源风格的旧字形字体[秋空󠄁黑體](https://github.com/ChiuMing-Neko/ChiuKongGothic)，特别喜欢。由于文件太大不适合作为网页字体，我正在想办法拆分，到那时就不用拼凑两种思源黑体了。
+最近遇到一款思源风格的旧字形字体[秋空󠄁黑體](https://github.com/ChiuMing-Neko/ChiuKongGothic)，特别喜欢，正是本站的正文字体。将原来大部分 Google Font 更改换了，在国内的加载速度应该快了不少 🚀
 
 最后一点是错别字的问题。相比于手写，在电脑上写文章更容易出现别字，也更难找到别字，一则是打字时稍有不慎击错按键就会输错字，二则是在电脑上写文章可以自由驰骋，这段看不顺眼就移到那段后面，移来移去文字不免有所舛驳。另外笔者使用<del>五笔</del>虎码输入法，产生的别字会比一般的别字更加古怪，所以遇到对文字疑惑的地方时，你一定是正确的，希望能提醒我修正。
 
@@ -123,13 +123,14 @@ slug: about
 ## 📜 Chronicle
 
 - 2022.07.13 在 GitHub Pages 上发布了由 Pelican 生成的静态站点
-- 2023.02.13 将站点迁移到归属地为美国的服务器上，通过 Nginx 部署
+- 2023.02.13 将站点迁移到 [RackNerd](https://racknerd.com/) 服务器上，通过 Nginx 部署
 - 2023.02.14 开始使用域名 [*https://leonis.cc*](https://leonis.cc)
 - 2023.03.03 站点加入[个站商店](https://storeweb.cn/)
 - 2023.03.11 站点加入 [BlogFinder](https://bf.zzxworld.com/)
-- 2023.03.15 升级到 Nginx 1.22，用 [Brotli](https://github.com/google/ngx_brotli) 压缩全部静态文件，提升加载速度
 - 2023.03.16 站点加入[中文独立博客列表](https://github.com/timqian/chinese-independent-blogs)
 - 2023.07.11 站点加入[开往-友链接力](https://www.travellings.cn)
+- 2023.10.31 站点托管至 [Cloudflare](https://www.cloudflare.com/)
+- 2023.11.11 将站点服务器更换为 [Cloudcone](https://cloudcone.com/)
 
 ## 🛠️ Tools
 

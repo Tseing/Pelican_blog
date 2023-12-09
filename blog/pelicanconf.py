@@ -9,7 +9,6 @@ PATH = 'content'
 
 TIMEZONE = 'Asia/Shanghai'
 DEFAULT_LANG = 'zh-CN'
-
 DEFAULT_DATE_FORMAT = '%Y年 %b%d日'
 
 ARTICLE_URL = '{category}/{date:%Y}-{date:%m}-{date:%d}-{slug}.html'
@@ -124,7 +123,6 @@ TOC = {
 }
 
 # pelican-search
-
 STORK_INPUT_OPTIONS = {
     "html_selector": ".post-content",
     "exclude_html_selector": "script, pre, .toc-nav, .math"
@@ -133,7 +131,6 @@ STORK_INPUT_OPTIONS = {
 STORK_OUTPUT_OPTIONS = {
     "excerpts_per_result": 1
 }
-
 
 # code replace to
 REPLACES = (
@@ -145,7 +142,6 @@ REPLACES = (
 )
 
 # import lightgallery
-
 # markdown extensions
 MARKDOWN = {
     'extension_configs': {
@@ -155,6 +151,7 @@ MARKDOWN = {
         'markdown.extensions.extra': {},
         'markdown.extensions.tables': {},
         'markdown.extensions.meta': {},
+        'markdown.extensions.md_in_html': {},
         'lightgallery': {},
         'markdown_link_attr_modifier': {
             'new_tab': 'on',
@@ -167,6 +164,7 @@ MARKDOWN = {
 
 CSS_OVERRIDE = ['theme/css/plugins.css', 'theme/css/bookshelf.css']
 
+# bookshelf plugin
 BOOKSHELF = {"INFOS": ["出版年", "页数", "定价", "ISBN"],
              "SAVE_TO_MD": False,
              "WAIT_TIME": 2}

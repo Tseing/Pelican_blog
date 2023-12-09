@@ -31,10 +31,9 @@ tags: Cloudflare, Blog
 
 以 `f000.backblazeb2.com/file/a-complicated-name/hokciu.jpg` 为例，图片链接可以都分成以下几个部分：
 
-- 主机名：`f000.backblaze.com`
-- 后缀：`file`
-- 桶名：`a-complicated-name`
-- 图片路径： `hokciu.jpg`
+|       主机名        |  后缀  |         桶名         |   图片路径   |
+| :-----------------: | :----: | :------------------: | :----------: |
+| `f000.backblze.com` | `file` | `a-complicated-name` | `hokciu.jpg` |
 
 因为 Friendly URL 中包含了桶名，不宜直接引用。假设想要将链接改写为 `img.leonis.cc/hokciu.jpg`，显然要修改主机名、隐藏固定的后缀和桶名，再拼接上图片路径，URL 的改写就通过 Cloudflare 实现。
 
@@ -182,5 +181,5 @@ GET: https://img.leonis.cc/hokciu.jpg
 ## References
 
 - [Deliver Public Backblaze B2 Content Through Cloudflare CDN](https://www.backblaze.com/docs/cloud-storage-deliver-public-backblaze-b2-content-through-cloudflare-cdn)
-- [使用 Backblaze B2 + Cloudflare CDN + PicGo 实现可自定义域名的 10G 免费图床解决方案 - winer's Blog](https://blog.winer.website/archives/use_blackblaze_b2_and_cloudflare_cdn_to_bulid_a_free_oss.html)
 - [Backblaze B2 + CloudFlare 搭建图床 - Mitsea Blog](https://blog.mitsea.com/67b8601211284a25b68bb8afe65b80a7/)
+- [使用 Backblaze B2 + Cloudflare CDN + PicGo 实现可自定义域名的 10G 免费图床解决方案 - winer's Blog](https://blog.winer.website/archives/use_blackblaze_b2_and_cloudflare_cdn_to_bulid_a_free_oss.html)
