@@ -1,9 +1,7 @@
 AUTHOR = 'Leo'
 SITENAME = "Leo's blog"
 SITESUBTITLE = 'A nook to hoard my manuscripts.'
-SITEURL = "https://leonis.cc"
-# Developing url
-# SITEURL = 'http://localhost:8000'
+SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 
@@ -31,6 +29,11 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
          ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
          ('You can modify those links in your config file', '#'),)
 
+# Umami statistic
+# turn off umami when developing
+UMAMI_STATISTIC = False
+UMAMI_WEB_ID = "b508982a-f7bf-4c24-a948-8de93b0cb81d"
+
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
@@ -42,7 +45,7 @@ SUMMARY_MAX_LENGTH = 100
 #RELATIVE_URLS = True
 
 # 导出时不删除的文件
-OUTPUT_RETENTION = [".git", ".gitignore", "favicon.ico", "robots.txt", "map.html"]
+OUTPUT_RETENTION = [".git", ".gitignore", "favicon.ico", "robots.txt", "map.html", "archives", "search.html"]
 
 # md与jupyter两种布局
 MARKUP = ("md", "ipynb")
@@ -56,6 +59,7 @@ IGNORE_FILES = [".ipynb_checkpoints"]
 IPYNB_SKIP_CSS=True
 
 THEME = "themes/attila"
+DIRECT_TEMPLATES  = ['index', 'authors', 'categories', 'tags', 'archives', 'search']
 
 # article modified time
 SHOW_MODIFIED_TIME = False
@@ -125,11 +129,12 @@ TOC = {
 # pelican-search
 STORK_INPUT_OPTIONS = {
     "html_selector": ".post-content",
-    "exclude_html_selector": "script, pre, .toc-nav, .math"
+    "exclude_html_selector": "script, pre, .toc-nav, .math",
+    "minimum_index_ideographic_substring_length": 2,
 }
 
 STORK_OUTPUT_OPTIONS = {
-    "excerpts_per_result": 1
+    "excerpts_per_result": 0
 }
 
 # code replace to
