@@ -134,7 +134,7 @@ STORK_INPUT_OPTIONS = {
 }
 
 STORK_OUTPUT_OPTIONS = {
-    "excerpts_per_result": 0
+    "excerpts_per_result": 1
 }
 
 # code replace to

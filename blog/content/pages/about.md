@@ -16,13 +16,13 @@ slug: about
     <div class="clear"></div>
 </aside>
 
-<img src="https://storage.live.com/items/4D18B16B8E0B1EDB!8636?authkey=ALYpzW-ZQ_VBXTU" style="width: 100%; box-shadow: none; margin-bottom: 0;">
+<img src="https://cdn.leonis.cc/img/2024/01/115aa797391bf50cf6ca9d087d3e329541d51bcb7522f8c2f5506fd1c4c7583d.jpg" style="width: 100%; box-shadow: none; margin-bottom: 0;">
 
 👋 你好，朋友！欢迎来到我的博客！
 
 这是一个使用 Pelican 生成的静态博客，部署在美国的一台服务器上，如果对博客的设置或结构感兴趣，你可以在网页的左下角找到这个博客的源码。
 
-网站封面来自于美国印象派画家 Walter Launt Palmer 的画作 [*Lake at Appledale*](https://www.artic.edu/artworks/180648/lake-at-appledale)，页面上方的图片是日本像素画家[豊井祐太](http://1041uuu.tumblr.com/)的作品，恰当地符合我盼望夏天的心情 ⛅
+站点封面是美国印象派画家 Walter Launt Palmer 的作品 [*Lake at Appledale*](https://www.artic.edu/artworks/180648/lake-at-appledale)，页面上方的画作来自于是我特别喜欢的日本浮世绘大师[川瀬巴水](https://ja.wikipedia.org/wiki/%E5%B7%9D%E7%80%AC%E5%B7%B4%E6%B0%B4)，这幅版画名为《厳島之雪》，其作品恬淡宁静的风格让人一眼就会爱上 ⋆⁺₊❅.
 
 ## 🌈 Who am I
 
@@ -131,6 +131,7 @@ slug: about
 - 2023.07.11 站点加入[开往-友链接力](https://www.travellings.cn)
 - 2023.10.31 站点托管至 [Cloudflare](https://www.cloudflare.com/)
 - 2023.11.11 将站点服务器更换为 [Cloudcone](https://cloudcone.com/)
+- 2023.02.10 站点加入[十年之约](https://www.foreverblog.cn/)
 
 ## 🛠️ Tools
 

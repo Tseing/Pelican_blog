@@ -27,7 +27,7 @@ slug: shan-qiang-bian
 
     <a rel="noopener" target="_blank" href="https://sanguok.com">
         <div class="link">
-            <img src="https://cravatar.cn/avatar/c7ad2023eaccb779c15579955c59e031?s=800">
+            <img src="https://avatars.githubusercontent.com/u/30859354">
             <div class="link-content">
                 <p class="name">山月</p>
                 <p class="text">左海逐月，雙峰遺夢</p>
