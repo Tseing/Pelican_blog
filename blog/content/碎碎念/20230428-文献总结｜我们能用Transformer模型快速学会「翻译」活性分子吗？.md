@@ -4,7 +4,7 @@ date: 2023-04-28
 tags: Literature Summary, CADD, Transformer
 summary: 本文介绍于 2023 年发表在 *Journal of Chemical Information and Modeling* 上的一篇文章，文章原标题为 Can We Quickly Learn to “Translate” Bioactive Molecules with Transformer Models? 文章使用 MMP 数据训练 Transformer，使其生成具有活性的分子，文章结果表明 Transformer 对于未知靶点也能生成活性分子。
 
-<i class="fa fa-external-link"></i> [doi.org/10.1021/acs.jcim.2c01618](https://doi.org/10.1021/acs.jcim.2c01618)
+<i class="fa-solid fa-arrow-up-right-from-square"></i> [doi.org/10.1021/acs.jcim.2c01618](https://doi.org/10.1021/acs.jcim.2c01618)
 
 本文介绍于 2023 年发表在 *Journal of Chemical Information and Modeling* 上的一篇文章，文章原标题为 Can We Quickly Learn to “Translate” Bioactive Molecules with Transformer Models? 文章使用 MMP 数据训练 Transformer，使其生成具有活性的分子，文章结果表明 Transformer 对于未知靶点也能生成活性分子。
 

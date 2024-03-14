@@ -211,7 +211,7 @@ $$\boldsymbol{Z}=\mathrm{Attention}(\boldsymbol{X},\boldsymbol{X},\boldsymbol{Y}
 
 ## 代码拆解
 
-有了对 Transformer 原理的基本认识，就可以动手实现一个 Transformer 了，通过代码更深入了解 Transformer 的一些细节。这里使用 PyTorch 搭建一个标准的 Transformer，参考代码见 [<i class="fa fa-github"></i> aladdinpersson / Machine-Learning-Collection ](https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/more_advanced/transformer_from_scratch/transformer_from_scratch.py)。
+有了对 Transformer 原理的基本认识，就可以动手实现一个 Transformer 了，通过代码更深入了解 Transformer 的一些细节。这里使用 PyTorch 搭建一个标准的 Transformer，参考代码见 [<i class="fa-brands fa-github"></i> aladdinpersson / Machine-Learning-Collection ](https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/more_advanced/transformer_from_scratch/transformer_from_scratch.py)。
 
 代码中的各模块如下图所示，接下来对各模块逐个拆解。
 
@@ -331,7 +331,7 @@ class SelfAttention(nn.Module):
 
 ![!n](https://storage.live.com/items/4D18B16B8E0B1EDB!8812?authkey=ALYpzW-ZQ_VBXTU)
 
-但代码中优化了一部分比较繁琐的操作，也有其他版本的代码使用了更接近原文的实现方式，如  [<i class="fa fa-github"></i> jadore801120 / attention-is-all-you-need-pytorch ](https://github.com/jadore801120/attention-is-all-you-need-pytorch/blob/master/transformer/SubLayers.py)，流程就如下图所示，勉强称之为「单头注意力变多头注意力」的一种代码实现吧。
+但代码中优化了一部分比较繁琐的操作，也有其他版本的代码使用了更接近原文的实现方式，如  [<i class="fa-brands fa-github"></i> jadore801120 / attention-is-all-you-need-pytorch ](https://github.com/jadore801120/attention-is-all-you-need-pytorch/blob/master/transformer/SubLayers.py)，流程就如下图所示，勉强称之为「单头注意力变多头注意力」的一种代码实现吧。
 
 ![!n](https://storage.live.com/items/4D18B16B8E0B1EDB!8814?authkey=ALYpzW-ZQ_VBXTU)
 

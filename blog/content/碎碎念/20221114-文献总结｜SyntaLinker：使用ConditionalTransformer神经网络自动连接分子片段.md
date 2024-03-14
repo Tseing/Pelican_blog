@@ -4,7 +4,7 @@ date: 2022-11-14
 tags: Literature Summary, CADD, Transformer
 summary: 本文介绍于 2020 年发表在 Chemical Science 上的一篇文章，文章原标题为 SyntaLinker: automatic fragment linking with deep conditional transformer neural networks，文章将基于语义模型 Transformer 识别并连接分子片段，最终设计了一种分子片段连接工具 SyntaLinker，它能够有效完成有约束的分子片段连接任务。
 
-<i class="fa fa-external-link"></i> [doi.org/10.1039/d0sc03126g](https://doi.org/10.1039/d0sc03126g)
+<i class="fa-solid fa-arrow-up-right-from-square"></i> [doi.org/10.1039/d0sc03126g](https://doi.org/10.1039/d0sc03126g)
 
 本文介绍于 2020 年发表在 *Chemical Science* 上的一篇文章，文章原标题为 SyntaLinker: automatic fragment linking with deep conditional transformer neural networks，文章将基于语义模型 Transformer 识别并连接分子片段，最终设计了一种分子片段连接工具 SyntaLinker，它能够有效完成有约束的分子片段连接任务。
 

@@ -4,7 +4,7 @@ date: 2023-04-06
 tags: Literature Summary, CADD, Transformer
 summary: 本文介绍 2023 年发布在 *Journal of Cheminformatics* 上的一篇文章，文章原标题为 DrugEx v3: scaffold‑constrained drug design with graph transformer‑based reinforcement learning，文章介绍了使用包括 Transformer 和 LSTM 模型实现以分子骨架为约束的药物设计的方法并对比了使用 SMILES 与图两种方式的分子表示在分子生成中的区别。
 
-<i class="fa fa-external-link"></i> [doi.org/10.1186/s13321-023-00694-z](https://doi.org/10.1186/s13321-023-00694-z)
+<i class="fa-solid fa-arrow-up-right-from-square"></i> [doi.org/10.1186/s13321-023-00694-z](https://doi.org/10.1186/s13321-023-00694-z)
 
 本文介绍 2023 年发布在 *Journal of Cheminformatics* 上的一篇文章，文章原标题为 DrugEx v3: scaffold‑constrained drug design
 with graph transformer‑based reinforcement learning，文章介绍了使用包括 Transformer 和 LSTM 模型实现以分子骨架为约束的药物设计的方法，并且对比了使用 SMILES 与图两种分子表示方式在分子生成中的区别。

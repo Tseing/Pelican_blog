@@ -4,7 +4,7 @@ date: 2023-05-27
 tags: Literature Summary, CADD, Transformer
 summary: 本文介绍于 2023 年 IBM 研究团队发表在 *Nature Machine Intelligence* 上的一篇文章，文章原标题为 Regression Transformer enables concurrent sequence regression and generation for molecular language modelling，文章提出了一种可以同时处理序列中的数值与文本并完成回归与生成的多任务的 Transformer 模型。
 
-<i class="fa fa-external-link"></i> [doi.org/10.1038/s42256-023-00639-z](https://doi.org/10.1038/s42256-023-00639-z)
+<i class="fa-solid fa-arrow-up-right-from-square"></i> [doi.org/10.1038/s42256-023-00639-z](https://doi.org/10.1038/s42256-023-00639-z)
 
 本文介绍于 2023 年 IBM 研究团队发表在 *Nature Machine Intelligence* 上的一篇文章，文章原标题为 Regression Transformer enables concurrent sequence regression and generation for molecular language modelling，文章提出了一种可以同时处理序列中的数值与文本并完成回归与生成的多任务的 Transformer 模型。
 

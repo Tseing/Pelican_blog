@@ -4,7 +4,7 @@ date: 2022-11-20
 tags: Literature Summary, CADD, RNN
 summary: 本文介绍于 2022 年发表在 Journal of Chemical Information and Modeling 上的一篇文章，文章原标题为 LibINVENT: Reaction-based Generative Scaffold Decoration for in Silico Library Design，文章基于 RNN 与 RL 构建了能够对分子进行结构改造的模型，模型在经过分子片段数据的训练后，模型能够在分子相应改造位点上连接不同化学结构，是构建虚拟化合物库的有利工具。
 
-<i class="fa fa-external-link"></i> [doi.org/10.1021/acs.jcim.1c00469](https://doi.org/10.1021/acs.jcim.1c00469)
+<i class="fa-solid fa-arrow-up-right-from-square"></i> [doi.org/10.1021/acs.jcim.1c00469](https://doi.org/10.1021/acs.jcim.1c00469)
 
 本文介绍于 2022 年发表在 *Journal of Chemical Information and Modeling* 上的一篇文章，文章原标题为 LibINVENT: Reaction-based Generative Scaffold Decoration for in Silico Library Design，文章基于 RNN 与 RL 构建了能够对分子进行结构改造的模型，模型在经过分子片段数据的训练后，模型能够在分子相应改造位点上连接不同化学结构，是构建虚拟化合物库的有利工具。
 

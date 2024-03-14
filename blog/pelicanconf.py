@@ -76,7 +76,7 @@ MENUITEMS = [("碎碎念", SITEURL + "/category/sui-sui-nian.html"),
              ("故纸堆", SITEURL + "/category/gu-zhi-dui.html"),
              ("在路上", SITEURL + "/category/zai-lu-shang.html"),
              ("山墙边", SITEURL + "/pages/shan-qiang-bian.html"),
-             ("破橱簏", "https://boulder-eoraptor-e45.notion.site/093af471f4f749628fd4ddc244a6b08d?v=3ec2eda75795443bb9530c901685a54b&pvs=4"),
+             ("破橱簏", "https://neodb.social/users/Leo/"),
              ("Tags", SITEURL + "/tags.html"),
              ("About", SITEURL + "/pages/about.html")]
 
@@ -86,7 +86,8 @@ AUTHORS_BIO = {
     "name": "Leo",
     "cover": "https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNuUZNJKuT3c_gI4Jh/root/content",
     "image": "https://cravatar.cn/avatar/95e31f6808fafa1f8ef3313b6f0b10e6?s=800",
-    "website": SITEURL,
+    # "website": SITEURL,
+    "mastodon": ("@leonis@dragon-fly.club", "https://mast.dragon-fly.club/@leonis"),
     "github": "Tseing",
     "location": "Tientsin",
     "email": "im.yczeng@outlook.com",
@@ -139,11 +140,11 @@ STORK_OUTPUT_OPTIONS = {
 
 # code replace to
 REPLACES = (
-    (u'{warn begin}', u'<div class="warn-info"><p><i class="fa fa-exclamation-circle"></i>&ensp;<b>Warning</b>&emsp;'),
+    (u'{warn begin}', u'<div class="warn-info"><p><i class="fa-solid fa-circle-exclamation"></i>&ensp;<b>Warning</b>&emsp;'),
     (u'{warn end}', u'</p></div>'),
-    (u'{note begin}', u'<div class="note-info"><p><i class="fa fa-sticky-note"></i>&ensp;<b>Note</b>&emsp;'),
+    (u'{note begin}', u'<div class="note-info"><p><i class="fa-solid fa-note-sticky"></i>&ensp;<b>Note</b>&emsp;'),
     (u'{note end}', u'</p></div>'),
-    (u'{location}', u"<span class='fa-stack fa-1x'><i class='fa fa-map-o fa-stack-1x'></i><i class='fa fa-map-marker fa-stack-1x'></i></span>"),
+    (u'{location}', u"<span class='fa-stack fa-1x'><i class='fa-regular fa-map fa-stack-1x'></i><i class='fa-solid fa-location-dot fa-stack-1x'></i></span>"),
 )
 
 # import lightgallery

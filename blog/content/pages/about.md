@@ -9,7 +9,7 @@ slug: about
         <h4 class="post-author-name"><a href="https://leonis.cc/author/leo.html">Leo</a></h4>
         <p class="post-author-about">A biochemist who doesn't know about classical literature isn't a good programmer. Cool, huh?</p>
         <span class="post-author-location"><i class="ic ic-location"></i> Tientsin</span>
-        <span class="post-author-website"><a rel="noopener" target="_blank" href="https://leonis.cc"><i class="ic ic-link"></i> Website</a></span>
+        <span class="post-author-mastodon"><a rel="noopener" target="_blank" href="https://mast.dragon-fly.club/@leonis"><i class="fa-brands fa-mastodon fa-fw" aria-hidden="true"></i> @leonis@dragon-fly.club</a></span>
         <span class="post-author-github"><a rel="noopener" target="_blank" href="https://github.com/Tseing"><i class="ic ic-github"></i> GitHub</a></span>
         <span class="post-author-email"><a rel="noopener" target="_blank" href="mailto:im.yczeng@outlook.com"><i class="ic ic-mail"></i>  im.yczeng@outlook.com</a></span>
     </div>
@@ -48,9 +48,9 @@ slug: about
 
 爱好和兴趣谈论了很多，但以上种种都与我的主业不相干，我从事的领域是 ⚗️ 计算化学、化学信息学、药物化学等等，所以不可避免地也了解 💻 数据科学、人工智能等等交叉领域的工具和技能，目前正在学习
 
-- <i class="fa fa-pencil-square-o"></i> 自然语言处理
-- <i class="fa fa-pencil-square-o"></i> C++
-- <i class="fa fa-pencil-square-o"></i> PostgreSQL
+- <i class="fa-solid fa-pen-to-square"></i> 自然语言处理
+- <i class="fa-solid fa-pen-to-square"></i> C++
+- <i class="fa-solid fa-pen-to-square"></i> PostgreSQL
 
 ## 💡 Origin
 
@@ -92,13 +92,13 @@ slug: about
 
 在这里放一些灵光一闪的想法吧，可能是长期目标，也可能是一拍脑门想到但没工夫完成的事，主要也是为了提醒自己别弃坑：
 
-- <i class="fa fa-square-o"></i> 把买的书看完（买书如山倒，读书如抽丝，不是件容易事 😭）
-- <i class="fa fa-square-o"></i> 爬遍五岳和黄山 ⛰️
-- <i class="fa fa-square-o"></i> 看看长江与黄河（1/2）
-- <i class="fa fa-square-o"></i> 学会画像素画 🎨
-- <i class="fa fa-square-o"></i> 临完一百方汉印
-- <i class="fa fa-square-o"></i> 临完十遍《王福庵说文部目》（7/10）
-- <i class="fa fa-square-o"></i> 背下《诗经》
+- <i class="fa-regular fa-square"></i> 把买的书看完（买书如山倒，读书如抽丝，不是件容易事 😭）
+- <i class="fa-regular fa-square"></i> 爬遍五岳和黄山 ⛰️
+- <i class="fa-regular fa-square"></i> 看看长江与黄河（1/2）
+- <i class="fa-regular fa-square"></i> 学会画像素画 🎨
+- <i class="fa-regular fa-square"></i> 临完一百方汉印
+- <i class="fa-regular fa-square"></i> 临完十遍《王福庵说文部目》（7/10）
+- <i class="fa-regular fa-square"></i> 背下《诗经》
 
 ## ✍️ Format and Fonts
 
@@ -135,4 +135,4 @@ slug: about
 
 ## 🛠️ Tools
 
-- [<i class="fa fa-bar-chart"></i> umami Analytics](https://analytics.umami.is/share/ozKnKeg8pJTZVHqe/Leo's%20blog)
+- [<i class="fa-solid fa-chart-line"></i> umami Analytics](https://analytics.umami.is/share/ozKnKeg8pJTZVHqe/Leo's%20blog)

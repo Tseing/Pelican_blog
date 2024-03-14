@@ -4,7 +4,7 @@ date: 2023-06-09
 tags: Literature Summary, CADD, GNN
 summary: 本文介绍于 2023 年 西北工业大学发表在 RECOMB 2023 上的一篇文章，文章原标题为 MTGL-ADMET: A Novel Multi-task Graph Learning Framework for ADMET Prediction Enhanced by Status-Theory and Maximum Flow，文章通过地位理论与最大流构造了由主要任务与辅助任务构成的多任务模型，相比单任务模型在预测准确性上有很大提高。
 
-<i class="fa fa-external-link"></i> [doi.org/10.1007/978-3-031-29119-7_6](https://doi.org/10.1007/978-3-031-29119-7_6)
+<i class="fa-solid fa-arrow-up-right-from-square"></i> [doi.org/10.1007/978-3-031-29119-7_6](https://doi.org/10.1007/978-3-031-29119-7_6)
 
 本文介绍于 2023 年 西北工业大学发表在 RECOMB 2023 上的一篇文章，文章原标题为 MTGL-ADMET: A Novel Multi-task Graph Learning Framework for ADMET Prediction Enhanced by Status-Theory and Maximum Flow，文章通过地位理论与最大流构造了由主要任务与辅助任务构成的多任务模型，相比单任务模型在预测准确性上有很大提高。
 

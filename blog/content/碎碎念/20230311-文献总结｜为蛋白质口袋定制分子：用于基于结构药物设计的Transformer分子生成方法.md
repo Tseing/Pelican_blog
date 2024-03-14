@@ -4,7 +4,7 @@ date: 2023-03-11
 tags: Literature Summary, CADD, Transformer, VAE
 summary: 本文介绍由微软研究团队于 2022 年发布在 arXiv 上的一篇文章，文章原标题为 Tailoring Molecules for Protein Pockets: a Transformer-based Generative Solution for Structured-based Drug Design，文章使用 Transformer 构建了一种能够获取受体 3 维信息的分子生成模型 TamGent，其中分子生成部分使用了预训练模型，避免了训练数据有限的问题。
 
-<i class="fa fa-external-link"></i> [doi.org/10.48550/arXiv.2209.06158](https://doi.org/10.48550/arXiv.2209.06158)
+<i class="fa-solid fa-arrow-up-right-from-square"></i> [doi.org/10.48550/arXiv.2209.06158](https://doi.org/10.48550/arXiv.2209.06158)
 
 本文介绍由微软研究团队于 2022 年发布在 arXiv 上的一篇文章，文章原标题为 Tailoring Molecules for Protein Pockets: a Transformer-based Generative Solution for Structured-based Drug Design，文章使用 Transformer 构建了一种能够获取受体 3 维信息的分子生成模型 TamGent，其中分子生成部分使用了预训练模型，避免了训练数据有限的问题。
 

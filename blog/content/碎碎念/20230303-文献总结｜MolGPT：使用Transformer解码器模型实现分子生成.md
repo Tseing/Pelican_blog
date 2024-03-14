@@ -4,7 +4,7 @@ date: 2023-03-03
 tags: Literature Summary, CADD, Transformer, GPT
 summary: 本文介绍于 2022 年发表在 *Journal of Chemical Information and Modeling* 上的一篇文章，文章原标题为 MolGPT: Molecular Generation Using a Transformer-Decoder Model，在 GPT 模型已经在自然语言处理领域得到了成功应用的背景下，这篇文章首次将 GPT 模型应用于完成分子生成的任务，实现了分子性质和结构两个方面的优化。
 
-<i class="fa fa-external-link"></i> [doi.org/10.1021/acs.jcim.1c00600](https://doi.org/10.1021/acs.jcim.1c00600)
+<i class="fa-solid fa-arrow-up-right-from-square"></i> [doi.org/10.1021/acs.jcim.1c00600](https://doi.org/10.1021/acs.jcim.1c00600)
 
 本文介绍于 2022 年发表在 *Journal of Chemical Information and Modeling* 上的一篇文章，文章原标题为 MolGPT: Molecular Generation Using a Transformer-Decoder Model，在生成预训练（Generative Pre-training, GPT）模型已经在自然语言处理领域得到了成功应用的背景下，这篇文章首次将 GPT 模型应用于完成分子生成的任务，实现了分子性质和结构两个方面的优化。
 

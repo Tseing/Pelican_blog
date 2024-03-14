@@ -87,7 +87,7 @@ git pull origin master
 
 这样的流程比较繁琐，每次更新都需要连接到服务器上操作，要简化这样的流程并实现自动化部署就需要借助 webhook 的功能。简单来说，在 GitHub 仓库设置中开启 webhook，用户对仓库执行每个动作（这里为 push）后，仓库都会向目标服务器发送一段 JSON 报文（回调），那么服务器只需要一直运行着监听该报文的脚本，一旦收到 push 成功的报文就执行 pull 操作。这样就简化了工作流程，push 静态网页后，服务器上的内容也会自动更新。
 
-webhook 脚本可以使用不同语言实现，例如 PHP、JavaScript 和 Python 等等。但是考虑了服务器的性能，我不打算在服务器上配置过于重的环境。于是我选择了基于 Go 语言的 [<i class="fa fa-github"></i> adnanh/webhook](https://github.com/adnanh/webhook)，十分轻量，配置的方法也很简单，可以参考[这篇文章](https://www.cnblogs.com/pingyeaa/p/12777626.html)。
+webhook 脚本可以使用不同语言实现，例如 PHP、JavaScript 和 Python 等等。但是考虑了服务器的性能，我不打算在服务器上配置过于重的环境。于是我选择了基于 Go 语言的 [<i class="fa-brands fa-github"></i> adnanh/webhook](https://github.com/adnanh/webhook)，十分轻量，配置的方法也很简单，可以参考[这篇文章](https://www.cnblogs.com/pingyeaa/p/12777626.html)。
 
 {warn begin}旧版 webhook 存在一些令人困恼的 bug，例如无法读取相对路径，请使用最新版本。{warn end}
 

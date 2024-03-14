@@ -4,7 +4,7 @@ date: 2023-02-04
 tags: Literature Summary, CADD, Transformer
 summary: 本文介绍于 2022 年发表在 *Journal of Cheminformatics* 上的一篇文章，文章原标题为 Transformer‑based molecular optimization beyond matched molecular pairs，目前已经出现许多使用 MMP 的 Transformer 模型，针对这种现状，文章评估了除 MMP 以外其他分子匹配方式对 Transformer 模型表现的影响。
 
-<i class="fa fa-external-link"></i> [doi.org/10.1186/s13321-022-00599-3](https://doi.org/10.1186/s13321-022-00599-3)
+<i class="fa-solid fa-arrow-up-right-from-square"></i> [doi.org/10.1186/s13321-022-00599-3](https://doi.org/10.1186/s13321-022-00599-3)
 
 本文介绍于 2022 年发表在 *Journal of Cheminformatics* 上的一篇文章，文章原标题为 Transformer‑based molecular optimization beyond matched molecular pairs，目前已经出现许多使用匹配分子对（matched molecular pairs, MMP）的 Transformer 模型，针对这种现状，文章评估了除 MMP 以外其他分子匹配方式对 Transformer 模型表现的影响。
 

@@ -6,7 +6,7 @@ summary: 本文介绍了来自浙江大学侯廷军老师的工作，文章原�
 
 本文介绍了来自浙江大学侯廷军老师的工作，文章原标题为 Multi-constraint molecular generation based on conditional transformer, knowledge distillation and reinforcement learning，于 2021 年发表在 *Nature Machine Intelligence* 上。文章基于 transformer 建立了分子生成模型，并借助知识蒸馏与强化学习算法，提出了一种新的分子生成模型，该模型能够顺利完成药物分子生成这样的多约束优化问题。
 
-<i class="fa fa-external-link"></i> [doi.org/10.1038/s42256-021-00403-1](https://doi.org/10.1038/s42256-021-00403-1)
+<i class="fa-solid fa-arrow-up-right-from-square"></i> [doi.org/10.1038/s42256-021-00403-1](https://doi.org/10.1038/s42256-021-00403-1)
 
 ## 引言
 

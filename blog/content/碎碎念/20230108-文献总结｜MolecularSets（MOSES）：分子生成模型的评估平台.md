@@ -4,7 +4,7 @@ date: 2023-01-08
 tags: Literature Summary, CADD
 summary: 本文介绍于 2020 年发布在 arXiv 上的一篇文章，文章原标题为 Molecular Sets (MOSES): A Benchmarking Platform for Molecular Generation Models，文章介绍了目前在评估分子生成模型方面存在的问题，并且设计了用于衡量模型表现的一套标准指标，目前 MOSES 已经广泛应用于各类分子生成任务。
 
-<i class="fa fa-external-link"></i> [doi.org/10.48550/arXiv.1811.12823](https://doi.org/10.48550/arXiv.1811.12823)
+<i class="fa-solid fa-arrow-up-right-from-square"></i> [doi.org/10.48550/arXiv.1811.12823](https://doi.org/10.48550/arXiv.1811.12823)
 
 本文介绍于 2020 年发布在 arXiv 上的一篇文章，文章原标题为 Molecular Sets (MOSES): A Benchmarking Platform for Molecular Generation Models，文章介绍了目前在评估分子生成模型方面存在的问题，并且设计了用于衡量模型表现的一套标准指标，目前 MOSES 已经广泛应用于各类分子生成任务。
 

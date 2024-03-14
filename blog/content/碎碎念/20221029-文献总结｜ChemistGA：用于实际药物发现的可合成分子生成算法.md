@@ -4,7 +4,7 @@ date: 2022-10-29
 tags: Literature Summary, CADD, Algorithm
 summary: 本文介绍于 2022 年发表在 Journal of Medicinal Chemistry 上的一篇文章，文章原标题为 ChemistGA: A Chemical Synthesizable Accessible Molecular Generation Algorithm for Real-World Drug Discovery，文章改进了传统的遗传算法，使其在药物分子生成的任务上具有比深度学习更优的表现效果。
 
-<i class="fa fa-external-link"></i> [doi.org/10.1021/acs.jmedchem.2c01179](https://doi.org/10.1021/acs.jmedchem.2c01179)
+<i class="fa-solid fa-arrow-up-right-from-square"></i> [doi.org/10.1021/acs.jmedchem.2c01179](https://doi.org/10.1021/acs.jmedchem.2c01179)
 
 本文介绍于 2022 年发表在 *Journal of Medicinal Chemistry* 上的一篇文章，文章原标题为 ChemistGA: A Chemical Synthesizable Accessible Molecular Generation Algorithm for Real-World Drug Discovery，文章改进了传统的遗传算法，ChemistGA 算法在药物分子生成的任务上具有比深度学习更优的表现效果。
 

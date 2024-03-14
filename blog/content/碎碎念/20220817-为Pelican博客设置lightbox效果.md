@@ -104,6 +104,6 @@ if (subHtml === '' || subHtml === 'NoCaption')
 
 ![!demo](https://storage.live.com/items/4D18B16B8E0B1EDB!7545?authkey=ALYpzW-ZQ_VBXTU)
 
-<p class="intro"><i class='fa fa-camera'></i> 135 mm&emsp;f/5.6&emsp;1/125&emsp;ISO-800&emsp;Photo by Leo</p>
+<p class="intro"><i class="fa-solid fa-camera"></i> 135 mm&emsp;f/5.6&emsp;1/125&emsp;ISO-800&emsp;Photo by Leo</p>
 
 {warn begin}本文最后更新于 2022 年 08 月 17 日，请确定内容是否过时。{warn end}
