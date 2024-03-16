@@ -84,12 +84,17 @@ MENUITEMS = [("碎碎念", SITEURL + "/category/sui-sui-nian.html"),
 AUTHORS_BIO = {
   "leo": {
     "name": "Leo",
-    "cover": "https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhNuUZNJKuT3c_gI4Jh/root/content",
+    "cover": "https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhN-QsM6F2bdOKv3Wrm/root/content",
     "image": "https://cravatar.cn/avatar/95e31f6808fafa1f8ef3313b6f0b10e6?s=800",
-    # "website": SITEURL,
-    "mastodon": ("@leonis@dragon-fly.club", "https://mast.dragon-fly.club/@leonis"),
+    "mastodon": {
+        "title": "@leonis@dragon-fly.club",
+        "url": "https://mast.dragon-fly.club/@leonis"
+    },
     "github": "Tseing",
-    "location": "Tientsin",
+    "location": {
+        "title": "Tientsin",
+        "url": "https://www.bing.com/maps?cp=39.116572%7E117.361669&lvl=10.1"
+    },
     "email": "im.yczeng@outlook.com",
     "bio": "A biochemist who doesn't know about classical literature isn't a good programmer. Cool, huh?"
   }
@@ -144,7 +149,6 @@ REPLACES = (
     (u'{warn end}', u'</p></div>'),
     (u'{note begin}', u'<div class="note-info"><p><i class="fa-solid fa-note-sticky"></i>&ensp;<b>Note</b>&emsp;'),
     (u'{note end}', u'</p></div>'),
-    (u'{location}', u"<span class='fa-stack fa-1x'><i class='fa-regular fa-map fa-stack-1x'></i><i class='fa-solid fa-location-dot fa-stack-1x'></i></span>"),
 )
 
 # import lightgallery

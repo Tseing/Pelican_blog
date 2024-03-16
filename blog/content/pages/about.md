@@ -1,5 +1,6 @@
 title: About
 slug: about
+cover: https://api.onedrive.com/v1.0/shares/s!AtseC45rsRhN-QrQ5nXFRYwcbFkK/root/content
 
 <aside class="post-author" style="margin-left: 0px;margin-right: 0px;border-top: none;border-bottom: 1px solid #e5e4e1;">
         <figure class="post-author-avatar">
@@ -8,10 +9,26 @@ slug: about
     <div class="post-author-bio">
         <h4 class="post-author-name"><a href="https://leonis.cc/author/leo.html">Leo</a></h4>
         <p class="post-author-about">A biochemist who doesn't know about classical literature isn't a good programmer. Cool, huh?</p>
-        <span class="post-author-location"><i class="ic ic-location"></i> Tientsin</span>
-        <span class="post-author-mastodon"><a rel="noopener" target="_blank" href="https://mast.dragon-fly.club/@leonis"><i class="fa-brands fa-mastodon fa-fw" aria-hidden="true"></i> @leonis@dragon-fly.club</a></span>
-        <span class="post-author-github"><a rel="noopener" target="_blank" href="https://github.com/Tseing"><i class="ic ic-github"></i> GitHub</a></span>
-        <span class="post-author-email"><a rel="noopener" target="_blank" href="mailto:im.yczeng@outlook.com"><i class="ic ic-mail"></i>  im.yczeng@outlook.com</a></span>
+        <span class="post-author-location">
+            <a rel="noopener" target="_blank" href="https://www.bing.com/maps?cp=39.116572%7E117.361669&amp;lvl=10.1" title="Tientsin"
+            style="color:inherit">
+            <i class="fa-solid fa-earth-asia fa-fw" aria-hidden="true"></i></a>
+        </span>
+        <span class="post-author-mastodon">
+            <a rel="noopener" target="_blank" href="https://mast.dragon-fly.club/@leonis" title="@leonis@dragon-fly.club"
+            style="color:inherit">
+            <i class="fa-brands fa-mastodon fa-fw" aria-hidden="true"></i></a>
+        </span>
+        <span class="post-author-github">
+            <a rel="noopener" target="_blank" href="https://github.com/Tseing" title="@Tseing"
+            style="color:inherit">
+            <i class="fa-brands fa-github fa-fw" aria-hidden="true"></i></a>
+        </span>
+        <span class="post-author-email">
+            <a rel="noopener" target="_blank" href="mailto:im.yczeng@outlook.com" title="im.yczeng@outlook.com"
+            style="color:inherit">
+            <i class="fa-solid fa-envelope fa-fw" aria-hidden="true"></i></a>
+        </span>
     </div>
     <div class="clear"></div>
 </aside>
